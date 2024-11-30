@@ -9,7 +9,7 @@ const BannerBottom = () => {
   return (
     <>
     <section className='feature-bg w-full'>
-      <div className=' feature max-w-7xl m-auto grid grid-cols-3 gap-8'>
+      {/* <div className=' feature max-w-7xl m-auto grid grid-cols-3 gap-8'>
 
         <div className='flex flex-col gap-10 justify-center items-center bg-[#252f5a] p-12 rounded-xl'> 
 
@@ -47,7 +47,7 @@ const BannerBottom = () => {
           </div>
         </div>
         
-      </div>
+      </div> */}
       <div className='max-w-7xl m-auto py-24 flex items-center flex-col gap-4 justify-center'>
       <h4 className="text-2xl text-rose-600 font-semibold uppercase">
       Try to check out our

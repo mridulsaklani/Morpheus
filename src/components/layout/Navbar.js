@@ -9,10 +9,13 @@ import { FaUser } from "react-icons/fa";
 import { IoGameController } from "react-icons/io5";
 
 
+
+
+
 const Navbar = () => {
   return (
     <>
-    <div className='max-w-7xl m-auto flex items-center py-4 '>
+    <div className='max-w-7xl m-auto  items-center py-4 hidden'>
         <div className="w-1/2">
         <ul className='flex items-center '>
             <li><Link href="tel:8627819683" className='flex items-center gap-2 pr-4 border-r-[1px]'><BiSupport className='text-xl'/><p>Support</p></Link></li>
@@ -31,8 +34,10 @@ const Navbar = () => {
     </div>
     <div className=' bg-slate-700 '>
 
+    <div className='fixed bg-[#0000009c] py-3 top-0 left-0 w-full z-30' >
+
     
-    <div className='navbar sticky top-0 left-0 w-full max-w-7xl mx-auto py-3  flex items-center gap-10 pl-10 '>
+    <div className='   max-w-7xl mx-auto  flex items-center gap-10 '>
       <div className='w-1/6'>
       <Image 
       src={"/morpheus-logo.png"}
@@ -43,21 +48,19 @@ const Navbar = () => {
       </div>
       <div className='w-4/6 flex justify-end'>
       <nav>
-        <ul className='flex gap-8 items-center'>
+        <ul className='flex gap-12 items-center'>
           <li>
-            <Link className='font-medium' href={'/'}>HOME</Link>
+            <Link className='font-medium text-white' href={'/'}>HOME</Link>
           </li>
           <li>
-            <Link className='font-medium' href={'/'}>ABOUT US</Link>
+            <Link className='font-medium text-white uppercase' href={'/'}>Games</Link>
           </li>
           <li>
-            <Link className='font-medium' href={'/'}>TOURNAMENTS</Link>
+            <Link className='font-medium text-white' href={'/'}>TOURNAMENTS</Link>
           </li>
+          
           <li>
-            <Link className='font-medium' href={'/'}>BLOGS</Link>
-          </li>
-          <li>
-            <Link className='font-medium' href={'/'}>CONTACT</Link>
+            <Link className='font-medium text-white' href={'/'}>CONTACT</Link>
           </li>
         </ul>
       </nav>
@@ -65,6 +68,7 @@ const Navbar = () => {
       <div className='w-1/6 flex justify-end'>
       <Link  className="bg-rose-600 px-8 py-3 rounded-full text-white flex items-center gap-2" href={"/"}>Join Us <IoGameController className='text-xl' /></Link></div>
 
+    </div>
     </div>
     </div>
       

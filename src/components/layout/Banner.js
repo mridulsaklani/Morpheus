@@ -8,7 +8,9 @@ import { IoGameController } from "react-icons/io5";
 const Banner = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto py-20 pb-72 flex items-start ">
+    <div className="banner relative">
+      <div className="banner-overlay absolute top-0 left-0 w-full h-full"></div>
+      <div className="max-w-7xl mx-auto pt-48 pb-52 flex items-start relative z-20 ">
         <div className="w-1/2">
           <h4 className="text-2xl text-rose-600 font-semibold pb-4">
             CHALLENGE YOUR LIMITS
@@ -22,7 +24,7 @@ const Banner = () => {
               loop
             />
           </h1>
-          <p className="text-[26px] pb-8">
+          <p className="text-[26px] pb-8 text-white">
             Join tournament, showcase skills, compete globally, win prizes, and
             rise!{" "}
           </p>
@@ -34,7 +36,7 @@ const Banner = () => {
           </Link>
         </div>
         <div className="w-1/2 relative flex justify-center items-start ">
-          <Image
+          {/* <Image
             src={"/phone.png"}
             className=" align-middle"
             width={350}
@@ -92,8 +94,9 @@ const Banner = () => {
             width={100}
             height={100}
             alt="gamer"
-          />
+          /> */}
         </div>
+      </div>
       </div>
     </>
   );

@@ -131,6 +131,24 @@ h1,h2,h3,h4,h5,h6{
   animation: riple2 4.5s linear 1s infinite;
 }
 
+.banner{
+  background: url("/banner-bg.webp") ;
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+.banner-overlay{
+ 
+    background: linear-gradient(180deg, rgba(4, 42, 45, 0) 65.37%, #0f143a 100.18%), linear-gradient(270deg, rgba(4, 42, 45, 0) 39.75%, #0f143a 100%);
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.flex{
+  display: flex !important;
+}
+
 @keyframes gamer {
   0%{
     transform: translateY(0);
