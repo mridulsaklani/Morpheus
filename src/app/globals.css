@@ -149,6 +149,10 @@ h1,h2,h3,h4,h5,h6{
   display: flex !important;
 }
 
+.tournament-btn{
+  margin-bottom: -55px;
+}
+
 @keyframes gamer {
   0%{
     transform: translateY(0);

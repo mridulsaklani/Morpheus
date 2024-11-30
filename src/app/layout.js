@@ -22,7 +22,7 @@ export const metadata = {
 const openSans = Open_Sans({
   subsets: ['latin'], 
   variable: '--font-open-sans', 
-  weight: ['400','500','600','700']
+  weight: ['300','400','500','600','700']
 });
 
 const ubuntu = Ubuntu({
