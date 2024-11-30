@@ -3,6 +3,7 @@ import React from "react";
 import { ReactTyped } from "react-typed";
 import Image from "next/image";
 import Link from "next/link";
+import { IoGameController } from "react-icons/io5";
 
 const Banner = () => {
   return (
@@ -27,9 +28,9 @@ const Banner = () => {
           </p>
           <Link
             href={"/"}
-            className="bg-rose-600 text-white text-lg px-8 py-3 rounded-full"
+            className="bg-rose-600 text-white text-lg px-8 py-3 rounded-full flex items-center gap-2 w-fit"
           >
-            GET STARTED NOW!
+            GET STARTED NOW! <IoGameController />
           </Link>
         </div>
         <div className="w-1/2 relative flex justify-center items-start ">
@@ -44,20 +45,20 @@ const Banner = () => {
           <Image
             className=" gamer absolute left-60 "
             src={"/gamer.png"}
-            width={340}
-            height={340}
+            width={330}
+            height={330}
             alt="gamer"
           />
 
           <Image
-            className="  absolute left-2 top-36 "
+            className="riple1  absolute left-2 top-36 "
             src={"/ripple1.png"}
             width={120}
             height={120}
             alt="gamer"
           />
           <Image
-            className="  absolute left-2 top-56 "
+            className="riple2  absolute left-2 top-56 "
             src={"/bitcoin1.png"}
             width={120}
             height={120}
@@ -79,14 +80,14 @@ const Banner = () => {
             alt="gamer"
           />
           <Image
-            className="banner-right-png  absolute right-0 top-[100px] "
+            className="ripleAni banner-right-png  absolute right-0 top-[100px] "
             src={"/bitcoin2.png"}
             width={100}
             height={100}
             alt="gamer"
           />
           <Image
-            className="banner-right-png  absolute right-0 top-[180px] "
+            className=" ripleAni2 banner-right-png  absolute right-0 top-[180px] "
             src={"/ripple.png"}
             width={100}
             height={100}

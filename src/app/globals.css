@@ -50,6 +50,7 @@ h1,h2,h3,h4,h5,h6{
 
 .gamer{
   bottom: -120px;
+  animation: gamer 5s linear infinite;
 }
 
 .banner-right-png {
@@ -113,4 +114,76 @@ h1,h2,h3,h4,h5,h6{
 
 .feature{
   margin-top: -150px;
+}
+
+.riple1{
+  animation: riple 4.5s linear infinite;
+}
+.riple2{
+  animation: riple 4.5s linear 1s infinite;
+  
+}
+
+.ripleAni{
+  animation: riple2 4.5s linear infinite;
+}
+.ripleAni2{
+  animation: riple2 4.5s linear 1s infinite;
+}
+
+@keyframes gamer {
+  0%{
+    transform: translateY(0);
+
+  }
+  25%{
+    transform: translateY(-20px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+  75%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@keyframes riple {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+33% {
+    -webkit-transform: translate(-5px, -5px);
+    transform: translate(-5px, -5px);
+}
+66% {
+    -webkit-transform: translate(5px, 5px);
+    transform: translate(5px, 5px);
+}
+100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+}
+
+@keyframes riple2 {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
+33% {
+    -webkit-transform: translate(5px, -5px);
+    transform: translate(5px, -5px);
+}
+66% {
+    -webkit-transform: translate(-5px, 5px);
+    transform: translate(-5px, 5px);
+}
+100% {
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+}
 }
