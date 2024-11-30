@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className='flex items-center '>
             <li><Link href={'/'} className='flex items-center gap-2 pr-4 border-r-[1px]'><BiSupport className='text-xl'/><p>Support</p></Link></li>
             <li><Link href={'/'} className='flex items-center gap-2 px-4 border-r-[1px]'><FaEnvelope className='text-lg'/><p>morpheus@gmail.com</p></Link></li>
-            <li><Link href={'/'} className='flex items-center gap-2 px-4'><MdLanguage className='text-xl'/><p>Support</p></Link></li>
+            <li><Link href={'tel:8627819683'} className='flex items-center gap-2 px-4'><MdLanguage className='text-xl'/><p>Support</p></Link></li>
         </ul>
         
         </div>
