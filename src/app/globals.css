@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-open-sans: 'Open Sans', sans-serif;
+  --font-ubuntu: 'Ubuntu', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,5 +19,98 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-open-sans);
+  color: #A1AED4
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-ubuntu);
+}
+
+.navbar:before{
+  position: absolute;
+    content: "";
+    width: 1800px;
+    height: 100%;
+    top: 0px;
+    right: 100%;
+    background: rgb(7, 11, 40);
+}
+
+.navbar:after{
+  position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0px;
+    bottom: 0px;
+    border-bottom: 83px solid #070b28;
+    border-right: 35px solid transparent;
+}
+
+.gamer{
+  bottom: -120px;
+}
+
+.banner-right-png {
+  right: -50px;
+}
+
+.feature-bg{
+  background: url("/featuredgame-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.bb-icon{
+  border: 7px solid #f9314b;
+    border-radius: 50%;
+    text-align: center;
+    
+    line-height: 110px;
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(249, 49, 75, 0.2), 0px 0px 0px 15px rgba(249, 49, 75, 0.2);
+    box-shadow: 0px 0px 0px 15px rgba(249, 49, 75, 0.2), 0px 0px 0px 15px rgba(249, 49, 75, 0.2);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.yellow-bor{
+  border: 7px solid #f67a1f;
+  webkit-box-shadow: 0px 0px 0px 15px rgba(246, 122, 31, 0.2), 0px 0px 0px 15px rgba(246, 122, 31, 0.2);
+    box-shadow: 0px 0px 0px 15px rgba(246, 122, 31, 0.2), 0px 0px 0px 15px rgba(246, 122, 31, 0.2);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.purple-bor{
+  border: 7px solid #bc2cdd;
+  webkit-box-shadow: 0px 0px 0px 15px rgba(188, 44, 221, 0.2), 0px 0px 0px 15px rgba(188, 44, 221, 0.2);
+    box-shadow: 0px 0px 0px 15px rgba(188, 44, 221, 0.2), 0px 0px 0px 15px rgba(188, 44, 221, 0.2);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+.bb-icon::before{
+  position: absolute;
+    content: "";
+    top: 3%;
+    left: 3%;
+    width: 94%;
+    height: 94%;
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.bb-icon::after{
+  position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #1c2748;
+    border-radius: 50%;
+}
+
+.feature{
+  margin-top: -150px;
 }
