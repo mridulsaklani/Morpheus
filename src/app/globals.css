@@ -150,6 +150,17 @@ animation: updown 5s linear 3s infinite;
   margin-bottom: -55px;
 }
 
+.counter{
+  background: url("/counter-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.counter-overlay{
+  background: linear-gradient(0deg, rgba(4, 42, 45, 0) 15.37%, #070B28 100.18%), linear-gradient(180deg, rgba(4, 42, 45, 0) 39.75%, #070B28 100%);
+}
+
 @keyframes updown {
   0%{
     transform: translateY(0);
