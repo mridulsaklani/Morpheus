@@ -48,10 +48,7 @@ h1,h2,h3,h4,h5,h6{
     border-right: 35px solid transparent;
 }
 
-.gamer{
-  bottom: -120px;
-  animation: gamer 5s linear infinite;
-}
+
 
 .banner-right-png {
   right: -50px;
@@ -116,26 +113,26 @@ h1,h2,h3,h4,h5,h6{
   margin-top: -150px;
 }
 
-.riple1{
-  animation: riple 4.5s linear infinite;
-}
-.riple2{
-  animation: riple 4.5s linear 1s infinite;
-  
-}
 
-.ripleAni{
-  animation: riple2 4.5s linear infinite;
-}
-.ripleAni2{
-  animation: riple2 4.5s linear 1s infinite;
-}
 
 .banner{
   background: url("/banner-bg.webp") ;
   background-position: center center;
   background-size: cover;
   
+}
+
+.shape1{
+  z-index: -5;
+animation: updown 5s linear infinite;
+}
+.shape2{
+  z-index: -5;
+animation: updown 5s linear 1.5s infinite;
+}
+.shape3{
+  z-index: -5;
+animation: updown 5s linear 3s infinite;
 }
 
 .banner-overlay{
@@ -153,7 +150,7 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: -55px;
 }
 
-@keyframes gamer {
+@keyframes updown {
   0%{
     transform: translateY(0);
 
