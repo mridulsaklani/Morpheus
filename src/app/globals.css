@@ -160,6 +160,11 @@ animation: updown 5s linear 3s infinite;
 .counter-overlay{
   background: linear-gradient(0deg, rgba(4, 42, 45, 0) 15.37%, #070B28 100.18%), linear-gradient(180deg, rgba(4, 42, 45, 0) 39.75%, #070B28 100%);
 }
+.subscribe{
+  background: url("/newsletter.jpg");
+  background-size: cover;
+  background-position: center center;
+}
 
 @keyframes updown {
   0%{

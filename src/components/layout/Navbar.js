@@ -66,7 +66,7 @@ const Navbar = () => {
       </nav>
       </div>
       <div className='w-1/6 flex justify-end'>
-      <Link  className="bg-rose-600 px-8 py-3 rounded-full text-white flex items-center gap-2" href={"/"}>Join Us <IoGameController className='text-xl' /></Link></div>
+      <Link  className="bg-rose-600 px-8 py-3 rounded-full text-white flex items-center gap-2 uppercase" href={"/"}>Join Us <IoGameController className='text-xl' /></Link></div>
 
     </div>
     </div>

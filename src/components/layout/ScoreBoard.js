@@ -79,7 +79,7 @@ const ScoreBoard = () => {
             </thead>
             <tbody>
               {Array.from({ length: 10 }).map((_, index) => (
-                <tr key={index} className={`bg-transparent`}>
+                <tr key={index} className={`bg-transparent hover:bg-[#192246] transition-all duration-500`}>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] flex items-center space-x-3 font text-lg font-medium">
                     <img
                       src={`/user.png`}
@@ -126,7 +126,7 @@ const ScoreBoard = () => {
             </thead>
             <tbody>
               {Array.from({ length: 10 }).map((_, index) => (
-                <tr key={index} className={`bg-transparent`}>
+                <tr key={index} className={`bg-transparent hover:bg-[#192246] transition-all duration-500`}>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] flex items-center space-x-3 font text-lg font-medium">
                     <img
                       src={`/user.png`}
@@ -173,8 +173,8 @@ const ScoreBoard = () => {
             </thead>
             <tbody>
               {Array.from({ length: 10 }).map((_, index) => (
-                <tr key={index} className={`bg-transparent`}>
-                  <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] flex items-center space-x-3 font text-lg font-medium">
+                <tr key={index} className={`bg-transparent hover:bg-[#192246] transition-all duration-500`}>
+                  <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] flex items-center space-x-3 font text-lg font-medium ">
                     <img
                       src={`/user.png`}
                       alt="User"

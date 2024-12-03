@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { IoGameController } from "react-icons/io5";
+import Image from 'next/image';
 
 const Win = () => {
   return (
@@ -13,7 +14,7 @@ const Win = () => {
           <h2 className="text-white font-bold text-6xl uppercase">
           be one of them
           </h2>
-          <p className="text-xl  font-light pb-6 ">
+          <p className="text-2xl  font-light pb-6 ">
           Get started in less than 5 min - no credit card required.Gain early access to Dooplo and experience crypto like never before.
           </p>
           <Link
@@ -23,7 +24,13 @@ const Win = () => {
             Play NOW! <IoGameController />
           </Link>
         </div>
-        <div className="w-[35%]"></div>
+        <div className="w-[35%] flex justify-end items-center">
+          <Image className=''
+          src={'/Win.png'}
+          width={350}
+          height={350}
+          alt='Win Image'/>
+        </div>
 
 
       </div>
