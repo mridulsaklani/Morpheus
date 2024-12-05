@@ -14,7 +14,7 @@ const RecentWinners = () => {
           Recent Winners
           </h2>
           <p className="text-2xl  font-light pb-6 text-center w-2/3">
-          We update our site regularly; more and more winners are added every day! To locate the most recent winner's information
+          We update our site regularly; more and more winners are added every day! To locate the most recent winner information
           </p>
 
         </div>
