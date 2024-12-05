@@ -5,7 +5,6 @@ import GameSlider from "@/components/layout/GameSlider";
 import LiveTournaments from "@/components/layout/LiveTournaments";
 import RecentWinners from "@/components/layout/RecentWinners";
 import ScoreBoard from "@/components/layout/ScoreBoard";
-import Subscribe from "@/components/layout/Subscribe";
 import Win from "@/components/layout/Win";
 import Image from "next/image";
 
@@ -20,7 +19,7 @@ export default function Home() {
        <Counter/>
        <Win/>
        <RecentWinners/>
-       <Subscribe/>
+       
     </>
    
   );

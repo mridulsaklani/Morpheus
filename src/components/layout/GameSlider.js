@@ -10,12 +10,12 @@ const GameSlider = () => {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear"
+        autoplaySpeed: 4500,
+        // cssEase: "linear"
       };
   return (
     <>
@@ -23,10 +23,10 @@ const GameSlider = () => {
      <Slider {...settings}>
         <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
          <Image
-           className="h-[120px] object-cover object-center"
+           className="h-[160px] object-cover object-center"
            src={"/BGMI.jpg"}
-           height={200}
-           width={200}
+           height={280}
+           width={280}
            alt='bgmi'
          />
 
@@ -34,38 +34,38 @@ const GameSlider = () => {
         </Link>
         <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
         <Image
-           className="h-[120px] object-cover object-center"
+           className="h-[160px] object-cover object-center"
            src={"/freefire.webp"}
-           height={200}
-           width={200}
+           height={280}
+           width={280}
            alt='freefire'
          />
         </Link>
         <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
         <Image
-           className="h-[120px] object-cover object-center"
+           className="h-[160px] object-cover object-center"
            src={"/coc.jpg"}
-           height={200}
-           width={200}
+           height={280}
+           width={280}
            alt='clash of clans'
          />
         </Link>
         <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
         <Image
-           className="h-[120px] object-cover object-center"
+           className="h-[160px] object-cover object-center"
            src={"/Call-Of-Duty.jpg"}
-           height={200}
-           width={200}
+           height={280}
+           width={280}
            alt='call of duty'
          />
         </Link>
       
         <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
         <Image
-           className="h-[120px] object-cover object-center"
+           className="h-[160px] object-cover object-center"
            src={"/fortnite.jpg"}
-           height={200}
-           width={200}
+           height={280}
+           width={280}
            alt='call of duty'
          />
         </Link>

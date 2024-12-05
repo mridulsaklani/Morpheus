@@ -161,9 +161,21 @@ animation: updown 5s linear 3s infinite;
   background: linear-gradient(0deg, rgba(4, 42, 45, 0) 15.37%, #070B28 100.18%), linear-gradient(180deg, rgba(4, 42, 45, 0) 39.75%, #070B28 100%);
 }
 .subscribe{
+  margin-top: -220px;
   background: url("/newsletter.jpg");
   background-size: cover;
   background-position: center center;
+}
+
+.footer{
+  background: url('/footerbg.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.socialSec:hover .socialIcon{
+  color: white;
+
 }
 
 @keyframes updown {
