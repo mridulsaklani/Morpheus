@@ -176,6 +176,12 @@ animation: updown 5s linear 3s infinite;
 
 }
 
+.tour-banner{
+  background: url("/tournamentbanner.webp");
+  background-position:  center center;
+  background-size: cover;
+}
+
 @keyframes updown {
   0%{
     transform: translateY(0);

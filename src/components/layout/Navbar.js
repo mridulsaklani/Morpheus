@@ -55,14 +55,14 @@ const Navbar = () => {
             <Link className={`${pathname === "/" ? "text-rose-600 font-semibold" : "text-white"} font-medium `} href={'/'}>HOME</Link>
           </li>
           <li>
-            <Link className='font-medium text-white uppercase' href={'/'}>Events</Link>
+            <Link className={`${pathname === "/events" ? "text-rose-600 font-semibold" : "text-white"} uppercase`} href={'/events'}>Events</Link>
           </li>
           <li>
-            <Link className='font-medium text-white' href={'/'}>TOURNAMENTS</Link>
+            <Link className={`${pathname === "/tournament" ? "text-rose-600 font-semibold" : "text-white"} font-medium`} href={'/tournament'}>TOURNAMENTS</Link>
           </li>
           
           <li>
-            <Link className='font-medium text-white' href={'/'}>CONTACT</Link>
+            <Link className={`${pathname === "/contact" ? "text-rose-600 font-semibold" : "text-white"} font-medium `} href={'/contact'}>CONTACT</Link>
           </li>
         </ul>
       </nav>
