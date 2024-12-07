@@ -15,7 +15,7 @@ const Win = () => {
           be one of them
           </h2>
           <p className="text-2xl  font-light pb-6 ">
-          Get started in less than 5 min - no credit card required.Gain early access to Dooplo and experience crypto like never before.
+          Join the league of gamers who dominate the battlegrounds, forge alliances, and claim ultimate glory!
           </p>
           <Link
             href={"/"}

@@ -49,7 +49,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-
 .banner-right-png {
   right: -50px;
 }
@@ -154,7 +153,6 @@ animation: updown 5s linear 3s infinite;
   background: url("/counter-bg.jpg");
   background-size: cover;
   background-position: center center;
-
 }
 
 .counter-overlay{

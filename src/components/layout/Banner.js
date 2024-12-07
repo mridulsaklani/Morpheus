@@ -16,7 +16,7 @@ const Banner = () => {
             CHALLENGE YOUR LIMITS
           </h4>
           <h1 className="text-white font-bold text-6xl leading-tight mb-4">
-            MORPHEOUS: THE ARENA FOR <br />
+            <span className="text-[68px]"> MORPHEOUS: </span> THE ARENA FOR <br />
             <ReactTyped
               strings={["CHAMPIONS ", "RISING STARS"]}
               typeSpeed={50}
@@ -25,7 +25,7 @@ const Banner = () => {
             />
           </h1>
           <p className="text-[26px] pb-8 text-white">
-            Join tournament, showcase skills, compete globally, win prizes, and
+            Join e-sports tournament, showcase skills, compete globally, win prizes, and
             rise!{" "}
           </p>
           <Link

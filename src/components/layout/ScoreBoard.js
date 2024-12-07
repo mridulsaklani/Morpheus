@@ -60,11 +60,11 @@ const ScoreBoard = () => {
           {HeaderShow === 1 &&<table className=" table-1 min-w-full table-auto border-collapse border-[1px] border-[#ffffff17] text-sm shadow-xl">
             <thead>
               <tr className="bg-[#0B122E] text-white">
-                <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
-                  USER
+                <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium uppercase">
+                  Team
                 </th>
                 <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
-                  USER ID
+                  Tournament
                 </th>
                 <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
                   RANK
@@ -81,17 +81,17 @@ const ScoreBoard = () => {
               {Array.from({ length: 10 }).map((_, index) => (
                 <tr key={index} className={`bg-transparent hover:bg-[#192246] transition-all duration-500`}>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] flex items-center space-x-3 font text-lg font-medium">
-                    <image
+                    <Image
                       src={`/user.png`}
                       width={32}
-                      hanging={32}
+                      height={32}
                       alt="User"
                       className="w-8 h-8 rounded-full"
                     />
                     <span>MRIDUL SAKLANI</span>
                   </td>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-lg font-medium">
-                    b799b8724b
+                  BattleGround Blitz
                   </td>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-lg font-medium text-[#045CF0]">
                     #{index + 1}
@@ -109,11 +109,11 @@ const ScoreBoard = () => {
           {HeaderShow === 2 && <table className=" table-2 min-w-full table-auto border-collapse border-[1px] border-[#ffffff17] text-sm  shadow-xl ">
             <thead>
               <tr className="bg-[#0B122E] text-white">
-                <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
-                  USER
+                <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium uppercase">
+                  Team
                 </th>
                 <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
-                  USER ID
+                  Tournament
                 </th>
                 <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
                   RANK
@@ -130,15 +130,17 @@ const ScoreBoard = () => {
               {Array.from({ length: 10 }).map((_, index) => (
                 <tr key={index} className={`bg-transparent hover:bg-[#192246] transition-all duration-500`}>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] flex items-center space-x-3 font text-lg font-medium">
-                    <img
+                    <Image
                       src={`/user.png`}
+                      height={32}
+                      width={32}
                       alt="User"
                       className="w-8 h-8 rounded-full"
                     />
                     <span>MRIDUL SAKLANI</span>
                   </td>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-lg font-medium">
-                    b799b8724b
+                  Firestorm Frenzy
                   </td>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-lg font-medium text-[#045CF0]">
                     #{index + 1}
@@ -156,11 +158,11 @@ const ScoreBoard = () => {
           {HeaderShow === 3 && <table className=" table-3 min-w-full table-auto border-collapse border-[1px] border-[#ffffff17] text-sm shadow-xl ">
             <thead>
               <tr className="bg-[#0B122E] text-white">
-                <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
-                  USER
+                <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium uppercase">
+                  Team
                 </th>
                 <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
-                  USER ID
+                  Tournament
                 </th>
                 <th className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-left text-xl font-medium">
                   RANK
@@ -187,7 +189,7 @@ const ScoreBoard = () => {
                     <span>MRIDUL SAKLANI</span>
                   </td>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-lg font-medium">
-                    b799b8724b
+                  Warrior’s Siege
                   </td>
                   <td className="px-4 py-4 border-b-[1px] border-[#ffffff17] text-lg font-medium text-[#045CF0]">
                     #{index + 1}

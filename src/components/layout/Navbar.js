@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
@@ -7,12 +8,13 @@ import { MdLanguage } from "react-icons/md";
 import { IoMdNotifications } from "react-icons/io";
 import { FaUser } from "react-icons/fa";
 import { IoGameController } from "react-icons/io5";
-
-
+import { usePathname } from 'next/navigation';
 
 
 
 const Navbar = () => {
+
+  const pathname = usePathname()
   return (
     <>
     <div className='max-w-7xl m-auto  items-center py-4 hidden'>
@@ -50,10 +52,10 @@ const Navbar = () => {
       <nav>
         <ul className='flex gap-12 items-center'>
           <li>
-            <Link className='font-medium text-white' href={'/'}>HOME</Link>
+            <Link className={`${pathname === "/" ? "text-rose-600 font-semibold" : "text-white"} font-medium `} href={'/'}>HOME</Link>
           </li>
           <li>
-            <Link className='font-medium text-white uppercase' href={'/'}>Games</Link>
+            <Link className='font-medium text-white uppercase' href={'/'}>Events</Link>
           </li>
           <li>
             <Link className='font-medium text-white' href={'/'}>TOURNAMENTS</Link>

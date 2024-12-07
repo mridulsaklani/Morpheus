@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="w-4/5">
             <form className="w-full flex gap-6" action="">
-              <input className="w-[65%] bg-transparent border-b-2 border-white" type="email" placeholder="Your Email Address " />
+              <input className="w-[65%] bg-transparent border-b-2 outline-none border-white" type="email" placeholder="Your Email Address " />
               <button  type="submit" className="uppercase bg-rose-600 flex items-center py-3 text-white w-[35%] rounded-full justify-center relative">Subscribe <span className="bg-[#db5263] w-12 h-12 rounded-full   flex items-center justify-center self-end absolute right-0 top-0"><FaPaperPlane className=" text-lg  "/></span></button>
               </form></div>
            
@@ -69,8 +69,9 @@ const Footer = () => {
             <h4 className='font-semibold text-[28px] uppercase text-white pb-5'>About</h4>
             <ul className='flex flex-col gap-3'>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Home </Link></li>
-              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Games </Link></li>
+              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Events </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Tournaments </Link></li>
+              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Profile </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Contact Us </Link></li>
             </ul>
           </div>
@@ -80,6 +81,7 @@ const Footer = () => {
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Manage Account </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Buy Token </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Live Tournaments </Link></li>
+              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Refund Policy </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Contact Us </Link></li>
             </ul>
           </div>
@@ -88,7 +90,7 @@ const Footer = () => {
 
           <ul className='flex flex-col gap-3'>
             <li ><Link href={"tel:8627819683"} className='flex items-center gap-4 hover:text-rose-600 transition-all duration-500 hover:translate-x-3'><FaPhoneAlt className=''/> 8627819683</Link> </li>
-            <li ><Link href={"mailto:test@gmail.com"} className='flex items-center gap-4 hover:text-rose-600 transition-all duration-500 hover:translate-x-3'><FaEnvelope className=''/> morphious@gmail.com</Link> </li>
+            <li ><Link href={"mailto:info@morpheousgaming.com"} className='flex items-center gap-4 hover:text-rose-600 transition-all duration-500 hover:translate-x-3'><FaEnvelope className=''/> info@morpheousgaming.com</Link> </li>
             <li ><Link href={"https://wa.me/8627819683"} className='flex items-center gap-3 hover:text-rose-600 transition-all duration-500 hover:translate-x-3'><FaWhatsapp className=' text-xl'/> 8627819683</Link> </li>
           </ul>
 
@@ -100,8 +102,8 @@ const Footer = () => {
         <div className='border-t-[1px] border-[#ffffff30] py-3 '>
           <div className="max-w-7xl mx-auto flex items-center">
 
-          <div className="w-1/2">Copyright © 2024.All Rights Reserved By <span className='text-rose-600'>Morpheous</span></div>
-          <div className="w-1/2">
+          <div className="w-[65%]">Copyright © 2024. All Rights Reserved |<span className=''> Developed by <Link className='text-rose-600' href={"https://mridulsinghsaklani.com"} target='_blank'>mridulsinghsaklani.com</Link></span></div>
+          <div className="w-[35%]">
           <ul className='flex items-center gap-2 justify-end'>
             <li><Link className='hover:text-rose-600 transition-all' href={""}>Term of Use</Link></li> |
             <li><Link className=' hover:text-rose-600 transition-all' href={""}>Privacy Policy</Link></li> |

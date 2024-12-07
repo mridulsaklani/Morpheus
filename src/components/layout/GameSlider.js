@@ -1,79 +1,98 @@
-"use client"
-import React from 'react'
+"use client";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const GameSlider = () => {
-    const settings = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 4500,
-        // cssEase: "linear"
-      };
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const settings = {
+    centerMode: true, // Ensures slides are centered
+    infinite: true, // Loops through slides
+    centerPadding: "0", // No padding on sides
+    slidesToShow: 3, // Display 3 slides
+    speed: 500,
+    afterChange: (current) => setActiveIndex(current), // Update active index
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
   return (
     <>
-    <div className='w-full overflow-hidden py-6 bg-[#0F143A]'>
-     <Slider {...settings}>
-        <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
-         <Image
-           className="h-[160px] object-cover object-center"
-           src={"/BGMI.jpg"}
-           height={280}
-           width={280}
-           alt='bgmi'
-         />
+    <div className="bg-[#0f143a]">
+    <div className="max-w-7xl mx-auto py-10">
+      <Slider {...settings}>
+        {/* Slide 1 */}
+        <div className="px-4">
+          <div
+            className={`h-64 flex items-center justify-center rounded-lg shadow-lg transition-all duration-300 ${
+              activeIndex === 0
+                ? "scale-110 opacity-100 z-10"
+                : "scale-90 opacity-50"
+            }`}
+          >
+            <Link href={""}>
+              <Image
+                src={"/BGMI.jpg"}
+                height={280}
+                width={280}
+                alt="BGMI"
+                className="rounded-lg"
+              />
+            </Link>
+          </div>
+        </div>
 
-         
-        </Link>
-        <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
-        <Image
-           className="h-[160px] object-cover object-center"
-           src={"/freefire.webp"}
-           height={280}
-           width={280}
-           alt='freefire'
-         />
-        </Link>
-        <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
-        <Image
-           className="h-[160px] object-cover object-center"
-           src={"/coc.jpg"}
-           height={280}
-           width={280}
-           alt='clash of clans'
-         />
-        </Link>
-        <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
-        <Image
-           className="h-[160px] object-cover object-center"
-           src={"/Call-Of-Duty.jpg"}
-           height={280}
-           width={280}
-           alt='call of duty'
-         />
-        </Link>
-      
-        <Link href={""} className='flex items-center justify-center hover:scale-105 transition-all'>
-        <Image
-           className="h-[160px] object-cover object-center"
-           src={"/fortnite.jpg"}
-           height={280}
-           width={280}
-           alt='call of duty'
-         />
-        </Link>
-      
+        {/* Slide 2 */}
+        <div className="px-4">
+          <div
+            className={`h-64 flex items-center justify-center rounded-lg shadow-lg transition-all duration-300 ${
+              activeIndex === 1
+                ? "scale-110 opacity-100 z-10"
+                : "scale-90 opacity-50"
+            }`}
+          >
+            <Link href={""}>
+              <Image
+                src={"/freefire.webp"}
+                height={280}
+                width={280}
+                alt="Free Fire"
+                className="rounded-lg"
+              />
+            </Link>
+          </div>
+        </div>
+
+        {/* Slide 3 */}
+        <div className="px-4">
+          <div
+            className={`h-64 flex items-center justify-center rounded-lg shadow-lg transition-all duration-300 ${
+              activeIndex === 2
+                ? "scale-110 opacity-100 z-10"
+                : "scale-90 opacity-50"
+            }`}
+          >
+            <Link href={""}>
+              <Image
+                src={"/fortnite.jpg"}
+                height={280}
+                width={280}
+                alt="Fortnite"
+                className="rounded-lg"
+              />
+            </Link>
+          </div>
+        </div>
       </Slider>
-      </div>
+    </div>
+    </div>
     </>
-  )
-}
+  );
+};
 
-export default GameSlider
+export default GameSlider;

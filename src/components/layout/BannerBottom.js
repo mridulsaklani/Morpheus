@@ -9,93 +9,77 @@ const BannerBottom = () => {
   return (
     <>
     <section className='feature-bg w-full'>
-      {/* <div className=' feature max-w-7xl m-auto grid grid-cols-3 gap-8'>
+     
+      <div className='max-w-7xl m-auto py-24 flex items-center flex-col gap-4 justify-center'>
+      
+          <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
+          Join the Live Tournament!
+          </h4>
+          <h2 className="text-white font-bold text-6xl uppercase">
+          Join a tournament now
+          </h2>
+          <p className="text-2xl text-center w-2/3 font-light">
+          Join the action! Register now to compete in live tournaments and showcase your skills!
+          </p>
 
-        <div className='flex flex-col gap-10 justify-center items-center bg-[#252f5a] p-12 rounded-xl'> 
 
-          <div className="bb-icon relative h-32 w-32 flex items-center  justify-center">
-           <Image
-           src={"/icon1.png"}
-           width={50}
-           height={50}
-           alt='ion'
-           />
+      </div>
+      <div className='max-w-7xl m-auto'>
+
+      
+      <div className=' grid grid-cols-3 gap-6 items-center justify-center pb-20'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+          <Image
+          className='w-full  rounded-lg'
+           src={"/BGMI.jpg"} 
+           width={200}
+           height={200}
+           alt='bgmi'
+           quality={100}
+          />
+          <div className="flex items-center justify-between w-full">
+            <p className="text-[22px] font-medium text-white ">Prize Pool </p>
+            <span className="text-[22px] font-medium text-red-600">4000₹</span>
           </div>
-          <div className='flex justify-center items-center gap-4 flex-col'>
-            <h3 className='uppercase text-2xl font-semibold text-white'>Exclusive Offer</h3>
-            <Link href={"/" } className='uppercase font-semibold text-center flex items-center gap-3'>Learn More <FaArrowRightLong /></Link>
-          </div>
+          <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
+
         </div>
-        <div className='flex flex-col gap-10 justify-center items-center bg-[#252f5a] p-12 rounded-xl'> 
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+          <Image
+          className='w-full  rounded-lg'
+           src={"/BGMI.jpg"} 
+           width={200}
+           height={200}
+           alt='bgmi'
+           quality={100}
+          />
+          <div className="flex items-center justify-between w-full">
+            <p className="text-[22px] font-medium text-white ">Prize Pool </p>
+            <span className="text-[22px] font-medium text-red-600">4000₹</span>
+          </div>
+          <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
-          <div className="bb-icon relative h-32 w-32 flex items-center  justify-center yellow-bor">
-          <GiTargetPrize className='text-[#f67a1f] text-5xl' />
-          </div>
-          <div className='flex justify-center items-center gap-4 flex-col'>
-            <h3 className='uppercase text-2xl font-semibold text-white'>Our Amazing Prizes</h3>
-            <Link href={"/" } className='uppercase font-semibold text-center flex items-center gap-3'>Learn More <FaArrowRightLong /></Link>
-          </div>
         </div>
-        <div className='flex flex-col gap-10 justify-center items-center bg-[#252f5a] p-12 rounded-xl'> 
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+          <Image
+          className='w-full  rounded-lg'
+           src={"/BGMI.jpg"} 
+           width={200}
+           height={200}
+           alt='bgmi'
+           quality={100}
+          />
+          <div className="flex items-center justify-between w-full">
+            <p className="text-[22px] font-medium text-white ">Prize Pool </p>
+            <span className="text-[22px] font-medium text-red-600">4000₹</span>
+          </div>
+          <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
-          <div className="bb-icon relative h-32 w-32 flex items-center  justify-center purple-bor">
-          <BiSupport className='text-5xl text-[#bc2cdd]'/>
-          </div>
-          <div className='flex justify-center items-center gap-4 flex-col'>
-            <h3 className='uppercase text-2xl font-semibold text-white'>24/7 Support</h3>
-            <Link href={"/" } className='uppercase font-semibold text-center flex items-center gap-3'>Learn More <FaArrowRightLong /></Link>
-          </div>
         </div>
         
-      </div> */}
-      <div className='max-w-7xl m-auto py-24 flex items-center flex-col gap-4 justify-center'>
-      <h4 className="text-2xl text-rose-600 font-semibold uppercase">
-      Try to check out our
-          </h4>
-          <h2 className='text-white font-bold text-6xl uppercase'>Upcoming tournaments</h2>
-          <p className='text-2xl text-center w-2/3'>Stay ahead of the competition! Explore upcoming tournaments, register now, showcase your skills, and claim ultimate victory!</p>
-
-
+        </div>
       </div>
-      <div className=' max-w-7xl m-auto grid grid-cols-3 gap-6 items-center justify-center pb-20'>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
-          <Image
-          className='w-full pb-10 rounded-lg'
-           src={"/BGMI.jpg"} 
-           width={200}
-           height={200}
-           alt='bgmi'
-           quality={100}
-          />
-          <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
-
-        </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
-          <Image
-          className='w-full pb-10 rounded-lg'
-           src={"/BGMI.jpg"} 
-           width={200}
-           height={200}
-           alt='bgmi'
-           quality={100}
-          />
-          <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
-
-        </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600  duration-500'>
-          <Image
-          className='w-full pb-10 rounded-lg'
-           src={"/BGMI.jpg"} 
-           width={200}
-           height={200}
-           alt='bgmi'
-           quality={100}
-          />
-          <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
-
-        </div>
-
-      </div>
+      
       </section>
     </>
   )
