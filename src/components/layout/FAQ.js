@@ -12,12 +12,12 @@ const FAQ = () => {
           We've answers
           </h2>
           <p className="text-2xl  font-light pb-6 text-center w-2/3">
-          Feel free to reach out for questions, collaborations, feedback, or simply to connect. I’d love to hear from you!
+          Feel free to reach out for questions, collaborations, feedback, or simply to connect. I do love to hear from you!
           </p>
 
         </div>
         <div>
-            
+
         </div>
 
       </div>
