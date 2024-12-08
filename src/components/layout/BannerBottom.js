@@ -48,7 +48,7 @@ useEffect(()=>{
 
       
       <div className=' grid grid-cols-3 gap-6 items-center justify-center pb-20'>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full  rounded-lg'
            src={"/first-tour.jpg"} 
@@ -70,7 +70,7 @@ useEffect(()=>{
           <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
         </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full  rounded-lg'
            src={"/first-tour.jpg"} 
@@ -92,7 +92,7 @@ useEffect(()=>{
           <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
         </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full  rounded-lg'
            src={"/first-tour.jpg"} 

@@ -36,7 +36,7 @@ useEffect(()=>{
           
         </div>
         <div className=' max-w-7xl m-auto grid grid-cols-3 gap-6 items-center justify-center pb-20'>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full pb-10 rounded-lg'
            src={"/BGMI.jpg"} 
@@ -52,7 +52,7 @@ useEffect(()=>{
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 
         </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full pb-10 rounded-lg'
            src={"/BGMI.jpg"} 
@@ -67,7 +67,7 @@ useEffect(()=>{
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 
         </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600  duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600  duration-500'>
           <Image
           className='w-full pb-10 rounded-lg'
            src={"/BGMI.jpg"} 
@@ -97,7 +97,7 @@ useEffect(()=>{
 
       </div>
       <div className=' max-w-7xl m-auto grid grid-cols-3 gap-6 items-center justify-center pb-20'>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full pb-10 rounded-lg'
            src={"/BGMI.jpg"} 
@@ -109,7 +109,7 @@ useEffect(()=>{
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 
         </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full pb-10 rounded-lg'
            src={"/BGMI.jpg"} 
@@ -121,7 +121,7 @@ useEffect(()=>{
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 
         </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all cursor-pointer hover:border-rose-600  duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600  duration-500'>
           <Image
           className='w-full pb-10 rounded-lg'
            src={"/BGMI.jpg"} 
