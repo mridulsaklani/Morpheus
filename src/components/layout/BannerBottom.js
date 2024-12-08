@@ -65,7 +65,7 @@ useEffect(()=>{
           </div>
           <div className="flex items-center justify-between w-full ">
             <p className="text-[22px] font-medium text-white ">Prize Pool </p>
-            <span className="text-[22px] font-medium text-red-600">4000₹</span>
+            <span className=" scale text-[22px] font-semibold text-red-600">10000₹</span>
           </div>
           <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
@@ -87,7 +87,7 @@ useEffect(()=>{
           </div>
           <div className="flex items-center justify-between w-full">
             <p className="text-[22px] font-medium text-white ">Prize Pool </p>
-            <span className="text-[22px] font-medium text-red-600">4000₹</span>
+            <span className=" scale text-[22px] font-semibold text-red-600">10000₹</span>
           </div>
           <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
@@ -109,7 +109,7 @@ useEffect(()=>{
           </div>
           <div className="flex items-center justify-between w-full">
             <p className="text-[22px] font-medium text-white ">Prize Pool </p>
-            <span className="text-[22px] font-medium text-red-600">4000₹</span>
+            <span className="scale text-[22px] font-semibold text-red-600">10000₹</span>
           </div>
           <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
