@@ -46,10 +46,8 @@ useEffect(()=>{
            quality={100}
           />
           <div className="flex items-center gap-5 pb-8">
-           <h3  className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span> Days</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-red-600">{hours<=9 ? "0" + hours : hours}</span> Hours</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-red-600">{minuts<= 9 ? "0" + minuts : minuts}</span> Minutes</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-red-600">{second <= 9 ?"0"+ second : second} </span>Seconds</h3>
+           <h3  className="flex  justify-center  gap-2 text-2xl font-semibold "> <span className=" font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
+          
           </div>
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 
@@ -64,10 +62,7 @@ useEffect(()=>{
            quality={100}
           />
            <div className="flex items-center gap-5 pb-8">
-           <h3  className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span> Days</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-red-600">{hours<=9 ? "0" + hours : hours}</span> Hours</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-red-600">{minuts<= 9 ? "0" + minuts : minuts}</span> Minutes</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-red-600">{second <= 9 ?"0"+ second : second} </span>Seconds</h3>
+           <h3  className="flex  justify-center  gap-2 text-2xl font-semibold "> <span className=" font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
           </div>
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 
@@ -82,10 +77,7 @@ useEffect(()=>{
            quality={100}
           />
            <div className="flex items-center gap-5 pb-8">
-           <h3  className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span> Days</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-red-600">{hours<=9 ? "0" + hours : hours}</span> Hours</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-red-600">{minuts<= 9 ? "0" + minuts : minuts}</span> Minutes</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-red-600">{second <= 9 ?"0"+ second : second} </span>Seconds</h3>
+           <h3  className="flex  justify-center  gap-2 text-2xl font-semibold "> <span className=" font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
           </div>
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 
