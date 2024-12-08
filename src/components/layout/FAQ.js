@@ -9,7 +9,7 @@ const FAQ = () => {
         Got any Question
           </h4>
           <h2 className="text-white font-bold text-6xl uppercase">
-          We've answers
+          We have answers
           </h2>
           <p className="text-2xl  font-light pb-6 text-center w-2/3">
           Feel free to reach out for questions, collaborations, feedback, or simply to connect. I do love to hear from you!
