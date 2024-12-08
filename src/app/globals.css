@@ -187,59 +187,21 @@ animation: updown 5s linear 3s infinite;
      box-shadow: 0px 0px 0px 10px rgba(25, 37, 77, 0.2), 0px 0px 0px 20px rgba(25, 37, 77, 0.2), 0px 0px 0px 30px rgba(25, 37, 77, 0.2);
 }
 
-@keyframes updown {
-  0%{
-    transform: translateY(0);
+.scale{
+  animation: scale 3.2s linear infinite;
+}
 
-  }
-  25%{
-    transform: translateY(-20px);
+@keyframes scale {
+  0%{
+    transform: scale(1);
+    opacity: .4;
   }
   50%{
-    transform: translateY(0);
-  }
-  75%{
-    transform: translateY(20px);
+    transform: scale(1.16);
+    opacity: 1;
   }
   100%{
-    transform: translateY(0);
+    transform: scale(1);
+    opacity: .4;
   }
-}
-
-@keyframes riple {
-  0% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-}
-33% {
-    -webkit-transform: translate(-5px, -5px);
-    transform: translate(-5px, -5px);
-}
-66% {
-    -webkit-transform: translate(5px, 5px);
-    transform: translate(5px, 5px);
-}
-100% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-}
-}
-
-@keyframes riple2 {
-  0% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-}
-33% {
-    -webkit-transform: translate(5px, -5px);
-    transform: translate(5px, -5px);
-}
-66% {
-    -webkit-transform: translate(-5px, 5px);
-    transform: translate(-5px, 5px);
-}
-100% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-}
 }
