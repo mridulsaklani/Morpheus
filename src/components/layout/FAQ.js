@@ -7,6 +7,7 @@ const FAQ = () => {
 
   const faqs = [
     {
+      
       question: "What is Morpheous?",
       answer: "Morpheous is a platform designed to host and manage gaming tournaments effortlessly. Whether you're a player or an organizer, it provides all the tools you need for competitive gaming."
     },
@@ -45,7 +46,7 @@ const FAQ = () => {
         </div>
         <div className="faq">
             {faqs.map((e,i)=>(
-              <div className="w-full mb-4 bg-[#1C294E] rounded-3xl ">
+              <div key={i} className="w-full mb-4 bg-[#1C294E] rounded-3xl ">
                 <div className="p-3 bg-[#1C294E] rounded-full flex  justify-between shadow-[0_10px_10px_#00000040]">
                   <div className="flex items-center gap-4">
                     <div className="h-9 w-9 bg-[#31B3F6] rounded-full flex items-center justify-center"><FaQuestion className="text-lg text-white"/></div>
