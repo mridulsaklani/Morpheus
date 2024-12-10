@@ -12,7 +12,7 @@ const BannerBottom = () => {
   const [hours, setHours] = useState(0);
   const [minuts, setMinuts] = useState(0)
   const [second, setSecond] = useState(0)
-   const deadline = "December, 21, 2024"
+   const deadline = "December, 25, 2024"
   const getTime = ()=>{
       const time = Date.parse(deadline) - Date.now()
       setDay(Math.floor(time/(1000*60*60*24)))
