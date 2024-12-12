@@ -15,17 +15,18 @@ const Banner = () => {
           <h4 className="text-2xl text-rose-600 font-semibold pb-4">
             CHALLENGE YOUR LIMITS
           </h4>
-          <h1 className="text-white font-bold text-6xl leading-tight mb-4">
-            <span className="text-[68px]"> MORPHEOUS: </span> THE ARENA FOR <br />
+          <h1 className="text-white font-bold text-4xl leading-tight mb-4">
+            <span className="text-[68px] "> MORPHEOUS <br/> </span> THE ARENA AWAITS <br /> 
             <ReactTyped
-              strings={["CHAMPIONS ", "RISING STARS"]}
+            className="uppercase"
+              strings={["ARE YOU READY???", "Can you dominate","claim you victory!"]}
               typeSpeed={50}
               backSpeed={50}
               loop
             />
           </h1>
-          <p className="text-[26px] pb-8 text-white">
-            Join e-sports tournament, showcase skills, compete globally, win prizes, and
+          <p className="text-[20px] pb-8 text-white">
+            Join e-sports tournament, showcase skills, win prizes, and
             rise!{" "}
           </p>
           <Link

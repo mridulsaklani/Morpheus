@@ -191,6 +191,20 @@ animation: updown 5s linear 3s infinite;
   animation: scale 3.2s linear infinite;
 }
 
+
+.purple-bor{
+  font-size: 22px ;
+  font-weight: 23px;
+  scroll-behavior: smooth;
+}
+
+.img{
+  background-image: ('/BGMI.jpg');
+  object-fit: cover;
+  background-position: center;
+}
+
+
 @keyframes scale {
   0%{
     transform: scale(1);

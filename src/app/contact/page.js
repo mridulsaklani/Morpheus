@@ -6,7 +6,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-   <ContactBanner/>
+   {/* <ContactBanner/> */}
    <GetInTouch/>
    <FAQ/>
    </>

@@ -32,7 +32,7 @@ const GetInTouch = () => {
   return (
     <>
     <div className='bg-[#0B122E]'>
-      <div className='max-w-7xl mx-auto py-20'>
+      <div className='max-w-7xl mx-auto py-20 pt-48'>
       <div className='flex flex-col gap-5 items-center justify-center mb-12'>
         <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
         Contact Us
@@ -41,7 +41,7 @@ const GetInTouch = () => {
           Get in Touch
           </h2>
           <p className="text-2xl  font-light pb-6 text-center w-2/3">
-          Feel free to reach out for questions, collaborations, feedback, or simply to connect. I’d love to hear from you!
+          Feel free to reach out for questions, collaborations, feedback, or simply to connect. I do love to hear from you!
           </p>
 
         </div>
@@ -66,7 +66,7 @@ const GetInTouch = () => {
                     </div>
                     <input className='w-full outline-none border-b-[1px] border-[#a1aed4] p-3 bg-transparent' value={inTouchForm.number} type="number" name='number' onChange={handleChange} placeholder='Enter your number'/>
                     <textarea className='w-full outline-none border-b-[1px] border-[#a1aed4] p-3 bg-transparent' value={inTouchForm.message} name="message " id="message" onChange={handleChange} rows={5} placeholder='Message'></textarea>
-                    <button disabled={inTouchForm.name ==="" || inTouchForm.email ==="" || inTouchForm.number ==="" || inTouchForm.message ===""} className='bg-rose-600 w-full py-3 uppercase rounded-full text-white border-2 border-rose-600 hover:bg-white hover:text-rose-600 transition-all hover:font-medium disabled:bg-red-400' type="submit">Submit</button>
+                    <button disabled={inTouchForm.name ==="" && inTouchForm.email ==="" && inTouchForm.number ==="" && inTouchForm.message ===""} className='bg-rose-600 w-full py-3 uppercase rounded-full text-white border-2 border-rose-600 hover:bg-white hover:text-rose-600 transition-all hover:font-medium disabled:bg-red-400' type="submit">Submit</button>
                 </form>
             </div>
             

@@ -28,10 +28,10 @@ const ScoreBoard = () => {
       <div className="max-w-7xl mx-auto ">
         <div className="w-full flex flex-col items-center justify-center gap-5 pb-10">
           <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
-            Conquer the Scoreboard
+            Conquer the Leaderboard
           </h4>
           <h2 className="text-white font-bold text-6xl uppercase">
-            Ruler of the Scoreboard
+            Ruler of the Leaderboard
           </h2>
           <p className="text-2xl text-center w-2/3 font-light">
             Celebrate excellence! Meet the top scorer who dominated the

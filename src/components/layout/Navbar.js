@@ -41,12 +41,12 @@ const Navbar = () => {
     
     <div className='   max-w-7xl mx-auto  flex items-center gap-10 '>
       <div className='w-1/6'>
-      <Image 
+      <Link href={'/'}><Image 
       src={"/morpheus-logo.png"}
       height={200}
       width={200}
       alt='morpheus-logo'
-      />
+      /></Link>
       </div>
       <div className='w-4/6 flex justify-end'>
       <nav>

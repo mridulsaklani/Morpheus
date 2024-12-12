@@ -38,8 +38,8 @@ const GameSlider = () => {
             <Link href={""}>
               <Image
                 src={"/BGMI.jpg"}
-                height={280}
-                width={280}
+                height={330}
+                width={330}
                 alt="BGMI"
                 className="rounded-lg"
               />
@@ -59,8 +59,8 @@ const GameSlider = () => {
             <Link href={""}>
               <Image
                 src={"/freefire.webp"}
-                height={280}
-                width={280}
+                height={330}
+                width={330}
                 alt="Free Fire"
                 className="rounded-lg"
               />
@@ -80,8 +80,8 @@ const GameSlider = () => {
             <Link href={""}>
               <Image
                 src={"/fortnite.jpg"}
-                height={280}
-                width={280}
+                height={330}
+                width={330}
                 alt="Fortnite"
                 className="rounded-lg"
               />
