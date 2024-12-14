@@ -8,7 +8,7 @@ const page = () => {
     <>
       <TournamentsBanner/>
       <CountDown/>
-      <RecentWinners/>
+      <RecentWinners pb={52} pt={24}/>
     </>
   )
 }

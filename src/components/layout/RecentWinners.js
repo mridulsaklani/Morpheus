@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const RecentWinners = () => {
+const RecentWinners = ({pb,pt}) => {
   return (
     <>
-      <div className='max-w-7xl mx-auto py-20 pb-52'>
+      <div className={`max-w-7xl mx-auto pt-${pt} pb-${pb}`}>
         <div className='flex flex-col gap-5 items-center justify-center'>
         <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
         Try to Check out our

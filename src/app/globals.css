@@ -256,14 +256,14 @@ animation: updown 5s linear 3s infinite;
 @keyframes scale {
   0%{
     transform: scale(1);
-    opacity: .4;
+   
   }
   50%{
     transform: scale(1.16);
-    opacity: 1;
+  
   }
   100%{
     transform: scale(1);
-    opacity: .4;
+   
   }
 }

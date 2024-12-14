@@ -15,10 +15,10 @@ export default function Home() {
       <GameSlider/>
       <BannerBottom/>
       <LiveTournaments/>
+       <RecentWinners pb={24} pt={0}/>
        <ScoreBoard/>
        <Counter/>
        <Win/>
-       <RecentWinners/>
        
     </>
    

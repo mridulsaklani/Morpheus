@@ -45,8 +45,10 @@ useEffect(()=>{
            alt='bgmi'
            quality={100}
           />
-          <div className="flex items-center gap-5 pb-8">
-           <h3  className="flex  justify-center  gap-2 text-2xl font-semibold "> <span className="scale font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
+          <div className="flex  gap-5 pb-8 w-full justify-between items-center">
+           <h3  className="flex text-white justify-center  gap-2 text-xl tracking-[1px] font-medium "> <span className="scale font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
+
+           <span className="text-lg text-white font-medium">06.01.2025</span>
           
           </div>
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
@@ -61,8 +63,11 @@ useEffect(()=>{
            alt='bgmi'
            quality={100}
           />
-           <div className="flex items-center gap-5 pb-8">
-           <h3  className="flex  justify-center  gap-2 text-2xl font-semibold "> <span className="scale font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
+           <div className="flex  gap-5 pb-8 w-full justify-between items-center">
+           <h3  className="flex text-white justify-center  gap-2 text-xl tracking-[1px] font-medium "> <span className="scale font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
+
+           <span className="text-lg text-white font-medium">06.01.2025</span>
+          
           </div>
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 
@@ -76,8 +81,11 @@ useEffect(()=>{
            alt='bgmi'
            quality={100}
           />
-           <div className="flex items-center gap-5 pb-8">
-           <h3  className="flex  justify-center  gap-2 text-2xl font-semibold "> <span className="scale font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
+          <div className="flex  gap-5 pb-8 w-full justify-between items-center">
+           <h3  className="flex text-white  justify-center  gap-2 text-xl tracking-[1px] font-medium "> <span className="scale font-semibold text-red-600">{day <=9 ? '0'+ day : day}</span>Days Left</h3>
+
+           <span className="text-lg font-medium text-white">06.01.2025</span>
+          
           </div>
           <Link href={""} className='tournament-btn rounded-full px-6 py-3 bg-[#1C294E] text-white font-semibold hover:bg-rose-600 transition-all'>REGISTER NOW!</Link>
 

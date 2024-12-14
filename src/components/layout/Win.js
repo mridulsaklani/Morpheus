@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Win = () => {
   return (
     <>
-      <div className='max-w-7xl mx-auto py-24 flex items-center'>
+      <div className='max-w-7xl mx-auto py-24 pb-52 flex items-center'>
         <div className='w-[65%] flex  gap-4 flex-col'>
         <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
         every day lots of wins
