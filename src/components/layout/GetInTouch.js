@@ -32,8 +32,8 @@ const GetInTouch = () => {
   return (
     <>
     <div className='bg-[#0B122E]'>
-      <div className='max-w-7xl mx-auto py-20 pt-48'>
-      <div className='flex flex-col gap-5 items-center justify-center mb-12'>
+      <div className='max-w-7xl mx-auto py-20 pt-44'>
+      <div className='flex flex-col gap-5 items-center justify-center mb-20'>
         <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
         Contact Us
           </h4>

@@ -1,9 +1,18 @@
-
-import React  from "react";
+"use client"
+import React, {useState , useEffect}  from "react";
 import { FaQuestion } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
 
 const FAQ = () => {
+    
+   const [show, setshow] = useState(1)
+
+    const setActive = (i)=>{
+      setshow(i === show ? null : i)
+         }
+   
+   
+  
 
   const faqs = [
     {
@@ -47,18 +56,18 @@ const FAQ = () => {
         <div className="faq">
             {faqs.map((e,i)=>(
               <div key={i} className="w-full mb-4 bg-[#1C294E] rounded-3xl ">
-                <div className="p-3 bg-[#1C294E] rounded-full flex  justify-between shadow-[0_10px_10px_#00000040]">
-                  <div className="flex items-center gap-4">
+                <div className="p-3 bg-[#1C294E] rounded-full flex  justify-between shadow-[0_10px_10px_#00000040]" onClick={()=>setActive(i)}>
+                  <div className="flex items-center gap-4" >
                     <div className="h-9 w-9 bg-[#31B3F6] rounded-full flex items-center justify-center"><FaQuestion className="text-lg text-white"/></div>
-                    <h3 className="text-xl text-white font-medium">{e.question}</h3>
+                    <h3 className="text-xl text-white font-medium" >{e.question}</h3>
                     </div>
                     <div className="flex h-9 w-9 justify-center items-center">
                     <FaAngleDown className="text-lg text-white"/>
                     </div>
                 </div>
-                <div className=" pb-8 pr-8 pl-8 pt-4">
-                  <p className="text-white text-lg">{e.answer}</p>
-                </div>
+                {show === i && <div className=" pb-8 pr-8 pl-8 pt-4">
+                 <p className="text-white text-lg">{e.answer}</p>
+                </div>}
               </div>
             ))}
         </div>
