@@ -19,7 +19,7 @@ const Banner = () => {
             <span className="text-[68px] bg-gradient-to-r from-cyan-500 to-blue-600 pl-2 pr-2"> MORPHEOUS <br/> </span> THE ARENA AWAITS <br /> 
             <ReactTyped
             className="uppercase"
-              strings={["ARE YOU READY???", "Can you dominate","claim you victory!"]}
+              strings={["ARE YOU READY???", "Can you dominate???","claim you victory!"]}
               typeSpeed={50}
               backSpeed={50}
               loop
