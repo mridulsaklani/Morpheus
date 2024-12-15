@@ -11,7 +11,7 @@ const Banner = () => {
     <div className="banner relative">
       <div className="banner-overlay absolute top-0 left-0 w-full h-full"></div>
       <div className="max-w-7xl mx-auto pt-48 pb-52 flex items-start relative z-20 ">
-        <div className="w-[60%]">
+        <div className="w-[65%]">
           <h4 className="text-2xl text-rose-600 font-semibold mb-4 pl-2 pr-2 tracking-wide relative bg-white w-fit">
             CHALLENGE YOUR LIMITS
           </h4>
@@ -31,12 +31,12 @@ const Banner = () => {
           </p>
           <Link
             href={"/"}
-            className="bg-rose-600 text-white text-lg px-8 py-3 rounded-full flex items-center gap-2 w-fit"
+            className="bg-rose-600 text-white text-lg px-8 py-3 rounded-full flex items-center gap-2 w-fit hover:bg-white hover:text-rose-600 transition-all duration-300"
           >
             GET STARTED NOW! <IoGameController />
           </Link>
         </div>
-        <div className="w-[40%] relative flex justify-center items-start ">
+        <div className="w-[35%] relative flex justify-center items-start ">
           {/* <Image
             src={"/phone.png"}
             className=" align-middle"
