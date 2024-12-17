@@ -1,98 +1,61 @@
-"use client";
-import React, { useState } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Image from "next/image";
-import Link from "next/link";
+'use client';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/autoplay';
+import 'swiper/css/pagination';
+import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 
-const GameSlider = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+const images = [
+  "/coc.jpg", 
+  "/BGMI.jpg",
+  "/coc.jpg",  
+  "/freefire.webp",
+  "/freefire.webp",
+  "/freefire.webp",
+];
 
-  const settings = {
-    centerMode: true, // Ensures slides are centered
-    infinite: true, // Loops through slides
-    centerPadding: "0", // No padding on sides
-    slidesToShow: 3, // Display 3 slides
-    speed: 500,
-    afterChange: (current) => setActiveIndex(current), // Update active index
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
-
+export default function ImageCarousel() {
   return (
     <>
-    <div className="bg-[#0f143a]">
-    <div className="max-w-7xl mx-auto py-10">
-      <Slider {...settings}>
-        {/* Slide 1 */}
-        <div className="px-4">
-          <div
-            className={`h-64 flex items-center justify-center rounded-lg shadow-lg transition-all duration-300 ${
-              activeIndex === 0
-                ? "scale-110 opacity-100 z-10"
-                : "scale-90 opacity-50"
-            }`}
-          >
-            <Link href={""}>
-              <Image
-                src={"/BGMI.jpg"}
-                height={330}
-                width={330}
-                alt="BGMI"
-                className="rounded-lg"
+    <div className='bg-[#0f143a]'>
+    <div className="w-full  px-4 py-8 ">
+      <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={3} 
+        spaceBetween={30} 
+        loop={true} 
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 150,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        modules={[EffectCoverflow, Autoplay, Pagination]}
+        className="mySwiper"
+      >
+        {images.map((src, index) => (
+          <SwiperSlide key={index}>
+            <div className="w-full h-56 flex justify-center items-center transition-transform duration-500">
+              <img
+                src={src}
+                alt={`Slide ${index + 1}`}
+                className="rounded-2xl shadow-2xl object-cover w-full h-full scale-90 hover:scale-100 transition-transform duration-300"
               />
-            </Link>
-          </div>
-        </div>
-
-        {/* Slide 2 */}
-        <div className="px-4">
-          <div
-            className={`h-64 flex items-center justify-center rounded-lg shadow-lg transition-all duration-300 ${
-              activeIndex === 1
-                ? "scale-110 opacity-100 z-10"
-                : "scale-90 opacity-50"
-            }`}
-          >
-            <Link href={""}>
-              <Image
-                src={"/freefire.webp"}
-                height={330}
-                width={330}
-                alt="Free Fire"
-                className="rounded-lg"
-              />
-            </Link>
-          </div>
-        </div>
-
-        {/* Slide 3 */}
-        <div className="px-4">
-          <div
-            className={`h-64 flex items-center justify-center rounded-lg shadow-lg transition-all duration-300 ${
-              activeIndex === 2
-                ? "scale-110 opacity-100 z-10"
-                : "scale-90 opacity-50"
-            }`}
-          >
-            <Link href={""}>
-              <Image
-                src={"/fortnite.jpg"}
-                height={330}
-                width={330}
-                alt="Fortnite"
-                className="rounded-lg"
-              />
-            </Link>
-          </div>
-        </div>
-      </Slider>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
     </div>
     </>
   );
-};
-
-export default GameSlider;
+}

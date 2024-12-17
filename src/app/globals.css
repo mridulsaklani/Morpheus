@@ -250,6 +250,31 @@ animation: updown 5s linear 3s infinite;
   border-bottom: 15px solid #E11D48;
 }
 
+.z-40{
+  z-index: 40 !important;
+}
+
+.welcome-popup{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-cross{
+  right: -14px;
+  top: -14px;
+  height: 44px;
+  width: 44px;
+}
+
+.welcome-btn{
+   margin-bottom: -55px;
+}
+
+.blury{
+  backdrop-filter: blur(10px);
+}
+
 /* --------------- Flip Counter Css End ----------------- */
 
 

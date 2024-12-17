@@ -4,6 +4,7 @@ import {Open_Sans, Ubuntu} from "next/font/google"
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import AnimatedCursor from "react-animated-cursor"
+import WelcomePopup from "@/features/WelcomePopup";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,13 +41,14 @@ export default function RootLayout({ children }) {
         className={`${openSans.variable} ${ubuntu.variable} antialiased bg-[#070b28]`}
       >
         <Navbar/>
+        <WelcomePopup/>
         <AnimatedCursor
           innerSize={8}
           outerSize={20}
-          color="37, 99, 235" // RGB values of blue
+          color="37, 99, 235" 
           outerAlpha={0.4}
           innerScale={1.2}
-          outerScale={2}
+          outerScale={2} 
         />
 
         {children}

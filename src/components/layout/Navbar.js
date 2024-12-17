@@ -38,8 +38,8 @@ const Navbar = () => {
   return (
     <>
      
-      <div className={`${isScrolled ? "bg-black" : "bg-slate-700 "}`}>
-        <div className="fixed bg-[#0000009c] py-3 top-0 left-0 w-full z-30">
+      
+        <div className={` ${isScrolled ? "bg-[#0F143A] shadow-lg " : "bg-[#080a19bb]  "}fixed py-3 top-0 left-0 w-full z-30`}>
           <div className="   max-w-7xl mx-auto  flex items-center gap-10 ">
             <div className="w-1/6">
               <Link href={"/"}>
@@ -116,7 +116,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+     
     </>
   );
 };
