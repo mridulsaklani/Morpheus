@@ -22,8 +22,9 @@ const CountDown = () => {
 
 
   </div>
-  <div className="grid grid-cols-2 gap-5 items-center">
+  <div className="grid grid-cols-3 gap-5 items-center">
     <Timer header={'PixelArena'} para={'BGMI'} status={'upcoming'} link={'/'}/>
+    <Timer header={'GameForge CLASH'} para={'FREE FIRE'} status={'upcoming'} link={'/'}/>
     <Timer header={'GameForge CLASH'} para={'FREE FIRE'} status={'upcoming'} link={'/'}/>
   </div>
       </div>

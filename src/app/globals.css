@@ -275,6 +275,48 @@ animation: updown 5s linear 3s infinite;
   backdrop-filter: blur(10px);
 }
 
+.swiper-slide-active img{
+  border-radius: 10px;
+}
+
+.mission{
+  background-image: url("/mission.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.pink-icon{
+  background: #f9314b;
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(249, 49, 75, 0.2), 0px 0px 0px 20px rgba(249, 49, 75, 0.2);
+    box-shadow: 0px 0px 0px 10px rgba(249, 49, 75, 0.2), 0px 0px 0px 20px rgba(249, 49, 75, 0.2);
+}
+
+.mission-box:hover .pink-icon{
+  -webkit-box-shadow: 0px 0px 0px 10px rgba(249, 49, 75, 0.2), 0px 0px 0px 20px rgba(249, 49, 75, 0.2),0px 0px 0px 30px rgba(249, 49, 75, 0.2);
+    box-shadow: 0px 0px 0px 10px rgba(249, 49, 75, 0.2), 0px 0px 0px 20px rgba(249, 49, 75, 0.2),0px 0px 0px 30px rgba(249, 49, 75, 0.2);
+}
+.yellow-icon{
+  background: #f67a1f;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(246, 122, 31, 0.2), 0px 0px 0px 20px rgba(246, 122, 31, 0.2);
+    box-shadow: 0px 0px 0px 10px rgba(246, 122, 31, 0.2), 0px 0px 0px 20px rgba(246, 122, 31, 0.2);
+}
+
+.mission-box:hover .yellow-icon{
+  -webkit-box-shadow: 0px 0px 0px 10px rgba(246, 122, 31, 0.2), 0px 0px 0px 20px rgba(246, 122, 31, 0.2), 0px 0px 0px 30px rgba(246, 122, 31, 0.2);
+  box-shadow: 0px 0px 0px 10px rgba(246, 122, 31, 0.2), 0px 0px 0px 20px rgba(246, 122, 31, 0.2) , 0px 0px 0px 30px rgba(246, 122, 31, 0.2);
+}
+.purple-icon{
+  background: #bc2cdd;
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(188, 44, 221, 0.2), 0px 0px 0px 20px rgba(188, 44, 221, 0.2);
+    box-shadow: 0px 0px 0px 10px rgba(188, 44, 221, 0.2), 0px 0px 0px 20px rgba(188, 44, 221, 0.2);
+}
+
+.mission-box:hover .purple-icon{
+  -webkit-box-shadow: 0px 0px 0px 10px rgba(188, 44, 221, 0.2), 0px 0px 0px 20px rgba(188, 44, 221, 0.2), 0px 0px 0px 30px rgba(188, 44, 221, 0.2);
+  box-shadow: 0px 0px 0px 10px rgba(188, 44, 221, 0.2), 0px 0px 0px 20px rgba(188, 44, 221, 0.2), 0px 0px 0px 30px rgba(188, 44, 221, 0.2);
+}
+
 /* --------------- Flip Counter Css End ----------------- */
 
 

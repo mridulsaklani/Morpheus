@@ -17,25 +17,39 @@ const FAQ = () => {
   const faqs = [
     {
       
-      question: "What is Morpheous?",
-      answer: "Morpheous is a platform designed to host and manage gaming tournaments effortlessly. Whether you're a player or an organizer, it provides all the tools you need for competitive gaming."
+      question: "What is Morpheous Gaming?",
+      answer: "Morpheous Gaming is a dynamic platform for Indian players to compete in survival game tournaments like PUBG and Free Fire. With a token-based entry system, thrilling prizes, and monthly rewards, it’s your ultimate destination for intense battles and epic victories. We also feature a Top Player Leaderboard every month, showcasing the best performers across tournaments. Earn recognition, dominate the rankings, and prove you are the best"
     },
     {
-      question: "How do I join a tournament?",
-      answer: "To join a tournament, simply sign up or log in to your account, browse the available tournaments, and click on the 'Join' button for the tournament you wish to participate in."
+      question: "Why Choose Morpheous Gaming?",
+      answer: `At Morpheous Gaming, we believe in more than just competition we believe in building connections, spreading positivity, and creating a community where every player feels valued. Our mission is to unite gamers, foster camaraderie, and celebrate every victory while supporting one another through challenges. We are not just about tournaments; we are about providing endless opportunities for players to compete and unlock their potential on global stages.
+
+Beyond prizes, Morpheous Gaming is about forming real connections and lasting friendships with like-minded players who share a passion for gaming. As we grow, we aim to elevate our community, helping players shine on larger platforms and be part of something extraordinary. Whether you are a beginner or a pro, we welcome you to join our journey. At Morpheous Gaming, it is not just about playing  it is about playing with heart.`
     },
     {
-      question: "Can I create my own tournaments?",
-      answer: "Yes! Morpheous allows users to create and manage their own tournaments. You can customize rules, schedules, and team sizes as per your requirements."
+      question: "How to Join a Tournament on Morpheous Gaming?",
+      answer: [
+        "Sign Up / Log In: Create an account on the Morpheous Gaming platform or log in if you already have one.",
+        "Browse Upcoming Tournaments: Visit the tournament section and browse the list of upcoming tournaments, including details like entry fees, prizes, and dates.",
+        "Select a Tournament: Choose the tournament you wish to join. Make sure to read the tournament details, including the rules and regulations.",
+        "Purchase Tokens: Use your account to purchase the required tokens. Tokens are used to buy tournament tickets and enter the competition.",
+        "Register Your Team: If it's a squad tournament, register your team by providing the required details. You can also join as an individual if the tournament allows it.",
+        "Confirm Your Entry: After completing the registration and token payment, your entry will be confirmed. You’ll receive a notification with your tournament details.",
+        "Prepare for Battle!: Once your entry is confirmed, get ready to compete! Log in at the tournament’s start time, and join the action.",
+      ],
     },
     {
-      question: "Is Morpheous free to use?",
-      answer: "Morpheous offers both free and premium features. You can access basic tournament features for free, while premium plans unlock advanced tools and analytics."
+      question: "How can we help you with your tournament experience?",
+      answer: "Let us know if you need assistance with registration, rules, or any other aspect of the tournament."
     },
     {
-      question: "What games are supported on Morpheous?",
-      answer: "Morpheous supports a wide range of popular games. Check out our list of supported games on the platform to see if your favorite game is included!"
-    }
+      question: "Do you need support with purchasing tokens or tickets?",
+      answer: "If you're facing any issues with token or ticket purchases, we're here to guide you through the process."
+    },
+    {
+      question: "Do you need any support?",
+      answer: "If you need assistance, whether it's with tournament registration, technical issues, payment problems, or anything else, we're here to help! Simply let us know your concern, and our support team will get back to you as soon as possible to ensure you have the best experience on Morpheous Gaming. "
+    },
   ];
   
   return (
@@ -65,12 +79,23 @@ const FAQ = () => {
                     <FaAngleDown className="text-lg text-white"/>
                     </div>
                 </div>
-                {show === i && <div className=" pb-8 pr-8 pl-8 pt-4">
-                 <p className="text-white text-lg">{e.answer}</p>
-                </div>}
+                {show === i && (
+                <div className="pb-8 pr-8 pl-8 pt-4">
+                  {Array.isArray(e.answer) ? (
+                    <ul className="list-disc pl-6 text-white text-lg">
+                      {e.answer.map((item, idx) => (
+                        <li key={idx}>{item}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="text-white text-lg">{e.answer}</p>
+                  )}
+                </div>
+              )}
               </div>
             ))}
         </div>
+        <div className="border-[1px]"></div>
       </div>
     </>
   );

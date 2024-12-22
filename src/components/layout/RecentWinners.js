@@ -6,15 +6,15 @@ const RecentWinners = ({pb,pt}) => {
   return (
     <>
       <div className={`max-w-7xl mx-auto pt-${pt} pb-${pb}`}>
-        <div className='flex flex-col gap-5 items-center justify-center'>
+        <div className='flex flex-col gap-5 items-center justify-center pb-4'>
         <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
         Try to Check out our
           </h4>
           <h2 className="text-white font-bold text-6xl uppercase">
-          Recent Winners
+          Meet our recent winners
           </h2>
           <p className="text-2xl  font-light pb-6 text-center w-2/3">
-          We update our site regularly; more and more winners are added every day! To locate the most recent winner information
+          the legends who rose to victory and claimed the spotlight!
           </p>
 
         </div>

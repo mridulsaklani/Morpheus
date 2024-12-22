@@ -28,14 +28,13 @@ const ScoreBoard = () => {
       <div className="max-w-7xl mx-auto ">
         <div className="w-full flex flex-col items-center justify-center gap-5 pb-10">
           <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
-            Conquer the Leaderboard
+          See Who’s Leading the Charge
           </h4>
-          <h2 className="text-white font-bold text-6xl uppercase">
-            Ruler of the Leaderboard
+          <h2 className="w-2/3 text-white font-bold text-6xl uppercase leading-snug text-center">
+           Top Performers of the Morpheous Family
           </h2>
           <p className="text-2xl text-center w-2/3 font-light">
-            Celebrate excellence! Meet the top scorer who dominated the
-            tournament with unmatched skill and determination.
+          This Month’s Heroes, Next Month Could Be Yours—Seize Your Victory!
           </p>
         </div>
         <div className="w-full flex justify-center items-center flex-col gap-10">

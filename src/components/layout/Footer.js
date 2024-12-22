@@ -69,10 +69,10 @@ const Footer = () => {
             <h4 className='font-semibold text-[28px] uppercase text-white pb-5'>About</h4>
             <ul className='flex flex-col gap-3'>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Home </Link></li>
-              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Events </Link></li>
-              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Tournaments </Link></li>
+              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={"/events"}> <FaAngleDoubleRight /> Events </Link></li>
+              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={"/tournament"}> <FaAngleDoubleRight /> Tournaments </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Profile </Link></li>
-              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Contact Us </Link></li>
+              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={"/contact"}> <FaAngleDoubleRight /> Contact Us </Link></li>
             </ul>
           </div>
           <div className=''>
@@ -81,7 +81,7 @@ const Footer = () => {
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Manage Account </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Buy Token </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Live Tournaments </Link></li>
-              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Refund Policy </Link></li>
+              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={"/refund"}> <FaAngleDoubleRight /> Refund Policy </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Contact Us </Link></li>
             </ul>
           </div>
@@ -105,9 +105,9 @@ const Footer = () => {
           <div className="w-[65%]">Copyright © 2024. All Rights Reserved |<span className=''> Developed by <Link className='text-rose-600' href={"https://mridulsinghsaklani.com"} target='_blank'>mridulsinghsaklani.com</Link></span></div>
           <div className="w-[35%]">
           <ul className='flex items-center gap-2 justify-end'>
-            <li><Link className='hover:text-rose-600 transition-all' href={""}>Term of Use</Link></li> |
-            <li><Link className=' hover:text-rose-600 transition-all' href={""}>Privacy Policy</Link></li> |
-            <li><Link className=' hover:text-rose-600 transition-all' href={""}>Help Center</Link></li>
+            <li><Link className='hover:text-rose-600 transition-all' href={"/conditions"}>Term of Use</Link></li> |
+            <li><Link className=' hover:text-rose-600 transition-all' href={'/privacy'}>Privacy Policy</Link></li> 
+            
           </ul>
           </div>
           </div>
