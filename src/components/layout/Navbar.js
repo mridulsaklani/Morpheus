@@ -97,7 +97,7 @@ const Navbar = () => {
                           ? "text-rose-600 font-semibold"
                           : "text-white"
                       } font-medium uppercase`}
-                      href={"/tournament"}
+                      href={"/about"}
                     >
                       About Us
                     </Link>
