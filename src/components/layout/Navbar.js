@@ -96,7 +96,7 @@ const Navbar = () => {
                         pathname === "/about"
                           ? "text-rose-600 font-semibold"
                           : "text-white"
-                      } font-medium`}
+                      } font-medium uppercase`}
                       href={"/tournament"}
                     >
                       About Us
