@@ -28,7 +28,7 @@ const AboutSec = () => {
               passionate about creating a platform where gamers from across
               India can come together to showcase their skills, engage in
               thrilling tournaments, and experience the joy of community-driven
-              competition. Whether you're a casual gamer or a pro looking for
+              competition. Whether you are a casual gamer or a pro looking for
               your next big challenge, Morpheous Gaming offers an inclusive and
               exciting environment for players of all levels.
             </p>
