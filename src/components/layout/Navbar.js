@@ -90,6 +90,18 @@ const Navbar = () => {
                       TOURNAMENTS
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className={`${
+                        pathname === "/about"
+                          ? "text-rose-600 font-semibold"
+                          : "text-white"
+                      } font-medium`}
+                      href={"/tournament"}
+                    >
+                      About Us
+                    </Link>
+                  </li>
 
                   <li>
                     <Link
