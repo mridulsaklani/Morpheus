@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         className={`${openSans.variable} ${ubuntu.variable} antialiased bg-[#070b28]`}
       >
         <Navbar/>
-        <WelcomePopup/>
+        {/* <WelcomePopup/> */}
         <AnimatedCursor
           innerSize={8}
           outerSize={20}

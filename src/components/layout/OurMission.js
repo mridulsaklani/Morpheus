@@ -4,7 +4,7 @@ import { IoGameController } from "react-icons/io5";
 const OurMission = () => {
   return (
     <>
-      <div className='mission py-20 pb-40'>
+      <div className='mission py-20 '>
         <div className="max-w-7xl mx-auto">
         <div className='flex flex-col gap-5 items-center justify-center mb-20'>
         <h4 className="text-2xl text-rose-600 font-semibold uppercase ">

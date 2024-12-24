@@ -6,7 +6,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-      <TournamentsBanner/>
+      {/* <TournamentsBanner/> */}
       <CountDown/>
       <RecentWinners pb={52} pt={24}/>
     </>

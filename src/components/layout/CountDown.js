@@ -4,7 +4,7 @@ import Timer from './Timer'
 const CountDown = () => {
   return (
     <>
-    <div className='bg-[#0b122e]  py-24  '>
+    <div className='bg-[#0b122e] pt-40  py-24  '>
 
    
       <div className=" max-w-7xl mx-auto">

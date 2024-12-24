@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutSec = () => {
   return (
     <>
-      <div className="bg-[#0b122e] py-20">
+      <div className="bg-[#0b122e] py-20 pt-48">
         <div className="max-w-7xl mx-auto flex items-center gap-12">
           <div className="w-[40%]">
             <Image
