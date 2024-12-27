@@ -6,14 +6,11 @@ import { IoGameController } from "react-icons/io5";
 import { usePathname } from "next/navigation";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaXmark } from "react-icons/fa6";
-import { useFormState } from "react-dom";
 
 const Navbar = () => {
   const pathname = usePathname();
-
   const [isScrolled, setIsScrolled] = useState(false);
-
-  const [SideMenu, setSideMenu] = useState(false)
+  const [SideMenu, setSideMenu] = useState(false);
 
  useEffect(() => {
   document.addEventListener('scroll',()=>{
@@ -35,10 +32,10 @@ const Navbar = () => {
             <div className="w-2/6 lg:w-1/6 ">
               <Link href={"/"}>
                 <Image
-                  src={"/morpheus-logo.png"}
-                  height={200}
-                  width={200}
-                  alt="morpheus-logo"
+                  src={"/Nikhil-icon.png"}
+                  height={280}
+                  width={280} 
+                  alt="morpheous-logo"
                 />
               </Link>
             </div>
