@@ -25,17 +25,17 @@ useEffect(()=>{
 
   return (
     <>
-      <div className="max-w-7xl mx-auto py-20 w-full">
+      <div className="max-w-7xl mx-auto py-20 w-full px-5">
         <div className="w-full flex flex-col items-center justify-center gap-5 pb-10">
-        <h4 className="text-2xl text-rose-600 font-semibold uppercase">
+        <h4 className="text-xl lg:text-2xl text-rose-600 font-semibold uppercase">
       Try to check out our
           </h4>
-          <h2 className='text-white font-bold text-6xl uppercase'>Upcoming tournaments</h2>
-          <p className='text-2xl text-center w-2/3'>Stay ahead of the competition! Explore upcoming tournaments, register now, showcase your skills, and claim ultimate victory!</p>
+          <h2 className='text-white font-bold text-4xl sm:text-5xl lg:text-6xl text-center uppercase'>Upcoming tournaments</h2>
+          <p className='text-xl lg:text-2xl text-center w-full sm:w-2/3'>Stay ahead of the competition! Explore upcoming tournaments, register now, showcase your skills, and claim ultimate victory!</p>
 
           
         </div>
-        <div className=' max-w-7xl m-auto grid grid-cols-3 gap-6 items-center justify-center pb-20'>
+        <div className=' max-w-7xl m-auto grid gap-y-12 lg:gap-y-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center pb-20'>
         <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full pb-10 rounded-lg'

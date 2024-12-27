@@ -19,8 +19,8 @@ const images = [
 ];
 
 export default function CenteredSlider() {
-  const [activeIndex, setActiveIndex] = useState(1); // Track active slide index
-  const [swiperInstance, setSwiperInstance] = useState(null); // Store the Swiper instance
+  const [activeIndex, setActiveIndex] = useState(1); 
+  const [swiperInstance, setSwiperInstance] = useState(null); 
 
   return (
     <div className="bg-[#0f143a] flex items-center justify-center pt-6 relative">
@@ -30,12 +30,12 @@ export default function CenteredSlider() {
           spaceBetween={30}
           centeredSlides={true}
           loop={true}
-          // autoplay={{
-          //   delay: 3000, // Change slide every 3 seconds
-          //   disableOnInteraction: false, // Continue autoplay after interaction
-          // }}
-          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)} // Update active index
-          onSwiper={(swiper) => setSwiperInstance(swiper)} // Save the Swiper instance
+          autoplay={{
+            delay: 3000, 
+            disableOnInteraction: false, 
+          }}
+          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+          onSwiper={(swiper) => setSwiperInstance(swiper)} 
           modules={[EffectCoverflow, Pagination, Autoplay]}
           className="mySwiper"
         >

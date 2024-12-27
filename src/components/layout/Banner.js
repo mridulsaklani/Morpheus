@@ -8,15 +8,15 @@ import { IoGameController } from "react-icons/io5";
 const Banner = () => {
   return (
     <>
-    <div className="banner relative">
+    <div className="banner relative px-5">
       <div className="banner-overlay absolute top-0 left-0 w-full h-full"></div>
-      <div className="max-w-7xl mx-auto pt-48 pb-52 flex items-start relative z-20 ">
-        <div className="w-[65%]">
-          <h4 className="text-2xl text-rose-600 font-semibold mb-4 pl-2 pr-2 tracking-wide relative bg-white w-fit">
+      <div className="max-w-7xl mx-auto pt-48 pb-52 flex flex-col lg:flex-row items-start relative z-20 ">
+        <div className="w-full flex flex-col items-center lg:items-start lg:w-[65%]">
+          <h4 className="text-2xl  text-rose-600 font-semibold mb-4 pl-2 pr-2 tracking-wide relative bg-white w-fit">
             CHALLENGE YOUR LIMITS
           </h4>
-          <h1 className="text-white font-bold text-[64px] leading-tight mb-4 tracking-wide">
-            <span className="text-[68px] bg-gradient-to-r from-cyan-500 to-blue-600 pl-2 pr-2"> MORPHEOUS <br/> </span> THE ARENA AWAITS <br /> 
+          <h1 className="text-white text-center lg:text-start font-bold text-4xl sm:text-5xl  lg:text-[64px] leading-tight mb-4 tracking-wide">
+            <span className="text-4xl sm:text-5xl lg:text-[68px] bg-gradient-to-r from-cyan-500 to-blue-600 pl-2 pr-2"> MORPHEOUS <br/> </span> THE ARENA AWAITS <br /> 
             <ReactTyped
             className="uppercase"
               strings={["ARE YOU READY???", "Can you dominate???","claim you victory!"]}
@@ -25,7 +25,7 @@ const Banner = () => {
               loop
             />
           </h1>
-          <p className="text-[20px] pb-8 text-white tracking-wide">
+          <p className="text-[20px] pb-8 text-white text-center lg:text-start tracking-wide">
             Join e-sports tournament, showcase skills, win prizes, and
             rise!{" "}
           </p>
@@ -36,7 +36,7 @@ const Banner = () => {
             GET STARTED NOW! <IoGameController />
           </Link>
         </div>
-        <div className="w-[35%] relative flex justify-center items-start ">
+        <div className="w-full lg:w-[35%] relative flex justify-center items-start ">
           {/* <Image
             src={"/phone.png"}
             className=" align-middle"

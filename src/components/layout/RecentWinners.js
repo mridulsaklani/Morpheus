@@ -5,23 +5,23 @@ import Link from 'next/link'
 const RecentWinners = ({pb,pt}) => {
   return (
     <>
-      <div className={`max-w-7xl mx-auto pt-${pt} pb-${pb}`}>
+      <div className={`max-w-7xl mx-auto pt-${pt} pb-${pb} px-5`}>
         <div className='flex flex-col gap-5 items-center justify-center pb-4'>
-        <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
+        <h4 className="text-xl lg:text-2xl text-rose-600 font-semibold uppercase ">
         Try to Check out our
           </h4>
-          <h2 className="text-white font-bold text-6xl uppercase">
+          <h2 className="text-white font-bold text-4xl sm:text-5xl lg:text-6xl text-center uppercase">
           Meet our recent winners
           </h2>
-          <p className="text-2xl  font-light pb-6 text-center w-2/3">
+          <p className="text-xl lg:text-2xl font-light pb-6 text-center w-full sm:w-2/3">
           the legends who rose to victory and claimed the spotlight!
           </p>
 
         </div>
-        <div className='grid grid-cols-3 gap-6 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 '>
           <div className='border-[#273b71] border-[1px]  rounded-lg p-8 hover:border-rose-600 transition-all duration-500 hover:translate-y-[-8px]'>
             <div className='flex justify-between items-center'>
-              <h4 className='text-2xl font-semibold text-white uppercase'>Nikhil Thakur</h4>
+              <h4 className='text-xl lg:text-2xl font-semibold text-white uppercase'>Nikhil Thakur</h4>
               <span className=' py-[7px] px-5 border-[#1a1e39] border-[1px] rounded-full bg-[#0d1535] text-sm '>b856sb840</span>
 
             </div>
@@ -41,7 +41,7 @@ const RecentWinners = ({pb,pt}) => {
           </div>
           <div className='border-[#273b71] border-[1px]  rounded-lg p-8 hover:border-rose-600 transition-all duration-500 hover:translate-y-[-8px]'>
             <div className='flex justify-between items-center'>
-              <h4 className='text-2xl font-semibold text-white uppercase'>Nikhil Thakur</h4>
+              <h4 className='text-xl lg:text-2xl font-semibold text-white uppercase'>Nikhil Thakur</h4>
               <span className=' py-[7px] px-5 border-[#1a1e39] border-[1px] rounded-full bg-[#0d1535] text-sm '>b856sb840</span>
 
             </div>
@@ -61,7 +61,7 @@ const RecentWinners = ({pb,pt}) => {
           </div>
           <div className='border-[#273b71] border-[1px]  rounded-lg p-8 hover:border-rose-600 transition-all duration-500 hover:translate-y-[-8px]'>
             <div className='flex justify-between items-center'>
-              <h4 className='text-2xl font-semibold text-white uppercase'>Nikhil Thakur</h4>
+              <h4 className='text-xl lg:text-2xl font-semibold text-white uppercase'>Nikhil Thakur</h4>
               <span className=' py-[7px] px-5 border-[#1a1e39] border-[1px] rounded-full bg-[#0d1535] text-sm '>b856sb840</span>
 
             </div>

@@ -8,7 +8,7 @@ const Counter = () => {
     <>
       <div className='counter py-20 relative'>
         <div className='counter-overlay absolute top-0 left-0 h-full w-full'></div>
-        <div className="max-w-7xl m-auto grid grid-cols-3 relative  z-10">
+        <div className="max-w-7xl m-auto  grid grid-cols-1 gap-8 sm:grid-cols-3 relative  z-10">
             <div className=' flex flex-col items-center justify-center gap-8'>
                 <Image
                 src={"/countericon1.png"}
@@ -18,7 +18,7 @@ const Counter = () => {
                 quality={100}
                 />
                 <div className=''>
-                <p className='text-white text-5xl font-bold pb-3'>
+                <p className='text-white text-6xl sm:text-5xl font-bold pb-3'>
                 <CountUp
                 start={0}
                 end={10}/>k</p>
@@ -35,7 +35,7 @@ const Counter = () => {
                 quality={100}
                 />
                 <div>
-                <p className='text-white text-5xl font-bold pb-3'>
+                <p className='text-white text-6xl sm:text-5xl font-bold pb-3'>
                 <CountUp
                 start={0}
                 end={99}/>+</p>
@@ -52,7 +52,7 @@ const Counter = () => {
                 quality={100}
                 />
                 <div>
-                <p className='text-white text-5xl font-bold pb-3'>
+                <p className='text-white text-6xl sm:text-5xl font-bold pb-3'>
                 <CountUp
                 start={0}
                 end={150}/>+</p>

@@ -28,17 +28,17 @@ useEffect(()=>{
 },[])
   return (
     <>
-    <section className='feature-bg w-full'>
+    <section className='feature-bg w-full px-5'>
      
-      <div className='max-w-7xl m-auto py-24 flex items-center flex-col gap-4 justify-center'>
+      <div className='max-w-7xl m-auto pt-16 pb-12 lg:py-24 flex items-center flex-col gap-4 justify-center'>
       
-          <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
+          <h4 className="text-xl lg:text-2xl text-rose-600 font-semibold uppercase ">
           Join the Live Tournament!
           </h4>
-          <h2 className="text-white font-bold text-6xl uppercase">
+          <h2 className="text-white font-bold text-4xl sm:text-5xl lg:text-6xl uppercase text-center">
           Join a tournament now
           </h2>
-          <p className="text-2xl text-center w-2/3 font-light">
+          <p className="text-xl lg:text-2xl text-center w-full sm:w-2/3 font-light">
           Join the action! Register now to compete in live tournaments and showcase your skills!
           </p>
 
@@ -47,7 +47,7 @@ useEffect(()=>{
       <div className='max-w-7xl m-auto'>
 
       
-      <div className=' grid grid-cols-3 gap-6 items-center justify-center pb-20'>
+      <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center pb-20'>
         <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
           className='w-full  rounded-lg'

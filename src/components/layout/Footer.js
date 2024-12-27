@@ -13,20 +13,21 @@ import { FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className='footer '>
+      <div className='footer px-5'>
         <div className='max-w-7xl m-auto py-20'> 
         <div className="subscribe  p-14">
           <div className="flex items-center flex-col justify-center gap-3 pb-10 ">
-            <h4 className="text-2xl text-rose-600 font-semibold uppercase ">
+            <h4 className="text-xl lg:text-2xl text-rose-600 font-semibold uppercase ">
               subscribe to Morpheus
             </h4>
-            <h2 className="text-white font-bold text-[40px] uppercase">
+            <h2 className="text-white font-bold text-4xl lg:text-[40px] uppercase text-center">
               To Get Exclusive Benefits
             </h2>
           </div>
           <div className="flex items-center justify-center gap-5 ">
             <div className="w-1/5 flex justify-end items-center">
              <Image
+             className=''
              src={'/mail-box.png'}
              width={100}
              height={100}
@@ -42,7 +43,7 @@ const Footer = () => {
 
           </div>
         </div>
-        <div className='grid grid-cols-4 gap-4 justify-start pt-16'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 justify-start pt-16'>
           <div> 
             <Image
             src={"/morpheus-logo.png"}
@@ -65,7 +66,7 @@ const Footer = () => {
 
             </div>
           </div>
-          <div className='pl-6'>
+          <div className='pl-0 md:pl-6'>
             <h4 className='font-semibold text-[28px] uppercase text-white pb-5'>About</h4>
             <ul className='flex flex-col gap-3'>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Home </Link></li>
@@ -100,11 +101,11 @@ const Footer = () => {
 
         </div>
         <div className='border-t-[1px] border-[#ffffff30] py-3 '>
-          <div className="max-w-7xl mx-auto flex items-center">
+          <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-4 items-center">
 
-          <div className="w-[65%]">Copyright © 2024. All Rights Reserved |<span className=''> Developed by <Link className='text-rose-600' href={"https://mridulsinghsaklani.com"} target='_blank'>mridulsinghsaklani.com</Link></span></div>
-          <div className="w-[35%]">
-          <ul className='flex items-center gap-2 justify-end'>
+          <div className="w-full md:w-[65%] text-center md:text-start ">Copyright © 2024. All Rights Reserved |<span className=''> Developed by <Link className='text-rose-600' href={"https://mridulsinghsaklani.com"} target='_blank'>mridulsinghsaklani.com</Link></span></div>
+          <div className="w-full md:w-[35%]">
+          <ul className='flex items-center gap-2 justify-center md:justify-end'>
             <li><Link className='hover:text-rose-600 transition-all' href={"/conditions"}>Term of Use</Link></li> |
             <li><Link className=' hover:text-rose-600 transition-all' href={'/privacy'}>Privacy Policy</Link></li> 
             

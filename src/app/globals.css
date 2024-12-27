@@ -454,11 +454,25 @@ animation: updown 5s linear 3s infinite;
   padding-bottom: 1.5rem /* 24px */;
 }
 
+.py-12 {
+  padding-top: 3rem /* 48px */;
+  padding-bottom: 3rem /* 48px */;
+}
+
 
 @media (min-width: 1024px) {
   .lg\:hidden {
       display: none !important;
   }
+  .lg\:text-2xl {
+    font-size: 1.5rem /* 24px */;
+    line-height: 2rem /* 32px */;
+}
+
+.md\:text-xl {
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+}
 }
 
 /* --------------- Flip Counter Css End ----------------- */
