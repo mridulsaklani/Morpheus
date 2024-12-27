@@ -367,6 +367,8 @@ animation: updown 5s linear 3s infinite;
     text-align: center;
     display: inline-block;
     line-height: 110px;
+    width: 125px;
+    height: 125px;
     -webkit-box-shadow: 0px 0px 0px 15px rgba(188, 44, 221, 0.2), 0px 0px 0px 15px rgba(188, 44, 221, 0.2);
     box-shadow: 0px 0px 0px 15px rgba(188, 44, 221, 0.2), 0px 0px 0px 15px rgba(188, 44, 221, 0.2);
     -webkit-transition: all 0.3s ease-in;
@@ -397,6 +399,66 @@ animation: updown 5s linear 3s infinite;
     border: 1px dashed rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     z-index: 1;
+}
+
+
+.offer-box:hover .purple-ico{
+  -webkit-box-shadow: 0px 0px 0px 15px rgba(188, 44, 221, 0.2), 0px 0px 0px 30px rgba(188, 44, 221, 0.2);
+    box-shadow: 0px 0px 0px 15px rgba(188, 44, 221, 0.2), 0px 0px 0px 30px rgba(188, 44, 221, 0.2);
+}
+
+.yellow-ico{
+  border: 7px solid #f67a1f;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    line-height: 110px;
+    width: 125px;
+    height: 125px;
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(246, 122, 31, 0.2), 0px 0px 0px 15px rgba(246, 122, 31, 0.2);
+    box-shadow: 0px 0px 0px 15px rgba(246, 122, 31, 0.2), 0px 0px 0px 15px rgba(246, 122, 31, 0.2);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.yellow-ico::before{
+  position: absolute;
+    content: "";
+    top: 3%;
+    left: 3%;
+    width: 94%;
+    height: 94%;
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.yellow-ico::after{
+  position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #1c2748;
+    border-radius: 50%;
+}
+
+.offer-box:hover .yellow-ico{
+  -webkit-box-shadow: 0px 0px 0px 15px rgba(246, 122, 31, 0.2), 0px 0px 0px 30px rgba(246, 122, 31, 0.2);
+  box-shadow: 0px 0px 0px 15px rgba(246, 122, 31, 0.2), 0px 0px 0px 30px rgba(246, 122, 31, 0.2);
+}
+
+.py-6 {
+  padding-top: 1.5rem /* 24px */;
+  padding-bottom: 1.5rem /* 24px */;
+}
+
+
+@media (min-width: 1024px) {
+  .lg\:hidden {
+      display: none !important;
+  }
 }
 
 /* --------------- Flip Counter Css End ----------------- */

@@ -31,7 +31,7 @@ const Banner = () => {
           </p>
           <Link
             href={"/"}
-            className="bg-rose-600 text-white text-lg px-8 py-3 rounded-full flex items-center gap-2 w-fit hover:bg-white hover:text-rose-600 transition-all duration-300"
+            className="bg-rose-600 text-white text-lg px-8 py-3 rounded-full flex items-center gap-2 w-fit hover:bg-white hover:text-rose-600 transition-all duration-500 hover:translate-y-[-8px]"
           >
             GET STARTED NOW! <IoGameController />
           </Link>

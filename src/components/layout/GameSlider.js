@@ -30,10 +30,10 @@ export default function CenteredSlider() {
           spaceBetween={30}
           centeredSlides={true}
           loop={true}
-          autoplay={{
-            delay: 3000, // Change slide every 3 seconds
-            disableOnInteraction: false, // Continue autoplay after interaction
-          }}
+          // autoplay={{
+          //   delay: 3000, // Change slide every 3 seconds
+          //   disableOnInteraction: false, // Continue autoplay after interaction
+          // }}
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)} // Update active index
           onSwiper={(swiper) => setSwiperInstance(swiper)} // Save the Swiper instance
           modules={[EffectCoverflow, Pagination, Autoplay]}

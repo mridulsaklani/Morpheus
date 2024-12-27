@@ -22,9 +22,9 @@ const Timer = ({header,para,status,link}) => {
         }, 1000);
     },[])
   return (
-    <div className='tournament-box'>
+    <div className='tournament-box rounded-lg'>
         <div className='p-6 bg-[#0b122e] border-t-[1px] border-b-[1px] border-[#ffffff1a] flex flex-col text-center gap-2 shadow-[0_0_12px_#00000050] relative overflow-hidden'>
-            <span className='statusbar absolute bg-[#3C26DB] text-white w-52 top-6 py-2 left-[-48px] uppercase'>{status}</span>
+            <span className='statusbar absolute bg-[#3C26DB] text-white w-52 top-6 py-2 left-[-48px] uppercase tracking-wider'>{status}</span>
            <h3 className='text-white font-bold  uppercase text-[34px] tracking-[1px]'>{header}</h3>
            <p className='uppercase text-rose-600 text-xl'>{para}</p>
 
