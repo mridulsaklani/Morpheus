@@ -114,7 +114,7 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="w-4/6 flex items-center justify-end lg:hidden">
-              <span className="" onClick={()=>setSideMenu(true)}><GiHamburgerMenu className="text-2xl text-white"/></span>
+              <span className="" onClick={()=>setSideMenu(true)}><GiHamburgerMenu className="text-2xl text-white hover:text-red-500 transition-all duration-300"/></span>
 
             </div>
             <div className={`${SideMenu ? "right-0" : "right-[-100%]"} sideMenu flex flex-col gap-7 fixed  h-full bg-[#0F143A] z-20 top-0 w-full sm:w-96 py-6 px-4 transition-all duration-300`}>

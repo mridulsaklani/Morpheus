@@ -15,12 +15,12 @@ const Footer = () => {
     <>
       <div className='footer px-5'>
         <div className='max-w-7xl m-auto py-20'> 
-        <div className="subscribe  p-14">
+        <div className="subscribe  p-6 md:p-14">
           <div className="flex items-center flex-col justify-center gap-3 pb-10 ">
             <h4 className="text-xl lg:text-2xl text-rose-600 font-semibold uppercase ">
               subscribe to Morpheus
             </h4>
-            <h2 className="text-white font-bold text-4xl lg:text-[40px] uppercase text-center">
+            <h2 className="text-white font-bold text-3xl md:text-4xl lg:text-[40px] uppercase text-center">
               To Get Exclusive Benefits
             </h2>
           </div>
@@ -36,8 +36,8 @@ const Footer = () => {
             </div>
             <div className="w-4/5">
             <form className="w-full flex gap-6" action="">
-              <input className="w-[65%] bg-transparent border-b-2 outline-none border-white" type="email" placeholder="Your Email Address " />
-              <button  type="submit" className="uppercase bg-rose-600 flex items-center py-3 text-white w-[35%] rounded-full justify-center relative">Subscribe <span className="bg-[#db5263] w-12 h-12 rounded-full   flex items-center justify-center self-end absolute right-0 top-0"><FaPaperPlane className=" text-lg  "/></span></button>
+              <input className="w-[82%] sm:w-[65%] bg-transparent border-b-2 outline-none border-white" type="email" placeholder="Your Email Address " />
+              <button  type="submit" className="uppercase overflow-hidden sm:overflow-visible bg-rose-600 flex items-center py-3 text-white w-12 sm:w-[35%] rounded-full justify-center relative">Subscribe <span className="bg-[#db5263] w-12 h-12 rounded-full   flex items-center justify-center self-end absolute right-0 top-0"><FaPaperPlane className=" text-lg  "/></span></button>
               </form></div>
            
 

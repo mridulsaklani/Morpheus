@@ -22,7 +22,7 @@ const Counter = () => {
                 <CountUp
                 start={0}
                 end={10}/>k</p>
-                <p className='text-2xl text-white'>Players</p>
+                <p className='text-2xl text-white text-center'>Players</p>
                 </div>
 
             </div>
@@ -39,7 +39,7 @@ const Counter = () => {
                 <CountUp
                 start={0}
                 end={99}/>+</p>
-                <p className='text-2xl text-white'>Games</p>
+                <p className='text-2xl text-white text-center'>Games</p>
                 </div>
 
             </div>
@@ -56,7 +56,7 @@ const Counter = () => {
                 <CountUp
                 start={0}
                 end={150}/>+</p>
-                <p className='text-2xl text-white'>Winners</p>
+                <p className='text-2xl text-white text-center'>Winners</p>
                 </div>
 
             </div>

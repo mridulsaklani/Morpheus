@@ -10,9 +10,9 @@ const Banner = () => {
     <>
     <div className="banner relative px-5">
       <div className="banner-overlay absolute top-0 left-0 w-full h-full"></div>
-      <div className="max-w-7xl mx-auto pt-48 pb-52 flex flex-col lg:flex-row items-start relative z-20 ">
+      <div className="max-w-7xl mx-auto pt-36 pb-36 md:pt-48 md:pb-52 flex flex-col lg:flex-row items-start relative z-20 ">
         <div className="w-full flex flex-col items-center lg:items-start lg:w-[65%]">
-          <h4 className="text-2xl  text-rose-600 font-semibold mb-4 pl-2 pr-2 tracking-wide relative bg-white w-fit">
+          <h4 className="text-xl md:text-2xl  text-rose-600 font-semibold mb-4 pl-2 pr-2 tracking-wide relative bg-white w-fit">
             CHALLENGE YOUR LIMITS
           </h4>
           <h1 className="text-white text-center lg:text-start font-bold text-4xl sm:text-5xl  lg:text-[64px] leading-snug mb-4 tracking-wide">

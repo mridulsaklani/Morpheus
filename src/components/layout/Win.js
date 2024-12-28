@@ -6,15 +6,15 @@ import Image from 'next/image';
 const Win = () => {
   return (
     <>
-      <div className='max-w-7xl mx-auto py-24 pb-52 flex flex-col gap-16 md:flex-row items-center px-5'>
-        <div className='w-[65%] flex items-center md:items-start  gap-4 flex-col'>
+      <div className='max-w-7xl mx-auto py-4  md:py-24 pb-52 flex flex-col gap-16 md:flex-row items-center px-5'>
+        <div className='w-full lg:w-[65%] flex items-center md:items-start  gap-4 flex-col'>
         <h4 className="text-xl text-center md:text-start lg:text-2xl text-rose-600 font-semibold uppercase ">
         every day lots of wins
           </h4>
           <h2 className="text-white font-bold text-4xl sm:text-5xl lg:text-6xl uppercase text-center md:text-start ">
           be one of them
           </h2>
-          <p className="text-xl lg:text-2xl text-center md:text-start font-light pb-6 ">
+          <p className="text-xl lg:text-2xl text-center md:text-start font-light pb-6 w-full">
           Join the league of gamers who dominate the battlegrounds, forge alliances, and claim ultimate glory!
           </p>
           <Link
@@ -24,7 +24,7 @@ const Win = () => {
             Play NOW! <IoGameController />
           </Link>
         </div>
-        <div className="w-[35%] flex justify-end items-center">
+        <div className="w-full lg:w-[35%] flex justify-end items-center">
           <Image className=''
           src={'/Win.png'}
           width={350}
