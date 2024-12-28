@@ -46,7 +46,7 @@ const Footer = () => {
         <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 justify-start pt-16'>
           <div> 
             <Image
-            src={"/morpheus-logo.png"}
+            src={"/Nikhil-icon.png"}
             width={250}
             height={250}
             quality={100}
@@ -69,7 +69,7 @@ const Footer = () => {
           <div className='pl-0 md:pl-6'>
             <h4 className='font-semibold text-[28px] uppercase text-white pb-5'>About</h4>
             <ul className='flex flex-col gap-3'>
-              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Home </Link></li>
+              <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={"/"}> <FaAngleDoubleRight /> Home </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={"/events"}> <FaAngleDoubleRight /> Events </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={"/tournament"}> <FaAngleDoubleRight /> Tournaments </Link></li>
               <li><Link className=' capitalize text-lg flex items-center  gap-2 hover:text-rose-600 transition-all duration-500 hover:translate-x-3' href={""}> <FaAngleDoubleRight /> Profile </Link></li>

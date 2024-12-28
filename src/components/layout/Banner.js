@@ -15,8 +15,8 @@ const Banner = () => {
           <h4 className="text-2xl  text-rose-600 font-semibold mb-4 pl-2 pr-2 tracking-wide relative bg-white w-fit">
             CHALLENGE YOUR LIMITS
           </h4>
-          <h1 className="text-white text-center lg:text-start font-bold text-4xl sm:text-5xl  lg:text-[64px] leading-tight mb-4 tracking-wide">
-            <span className="text-4xl sm:text-5xl lg:text-[68px] bg-gradient-to-r from-cyan-500 to-blue-600 pl-2 pr-2"> MORPHEOUS <br/> </span> THE ARENA AWAITS <br /> 
+          <h1 className="text-white text-center lg:text-start font-bold text-4xl sm:text-5xl  lg:text-[64px] leading-snug mb-4 tracking-wide">
+            <span className="text-4xl sm:text-5xl lg:text-[68px] bg-gradient-to-r from-cyan-500 to-red-500 pl-2 pr-2 "> MORPHEOUS <br/> </span> THE ARENA AWAITS <br /> 
             <ReactTyped
             className="uppercase"
               strings={["ARE YOU READY???", "Can you dominate???","claim you victory!"]}

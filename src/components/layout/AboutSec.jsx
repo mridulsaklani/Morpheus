@@ -8,7 +8,7 @@ const AboutSec = () => {
         <div className="max-w-7xl mx-auto flex items-center gap-12">
           <div className="w-[40%]">
             <Image
-              src={"/about-sec.webp"}
+              src={"/boys.jpg"}
               className="w-full rounded-lg h-96 object-cover object-center"
               height={420}
               width={420}

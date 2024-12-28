@@ -33,8 +33,8 @@ const Navbar = () => {
               <Link href={"/"}>
                 <Image
                   src={"/Nikhil-icon.png"}
-                  height={280}
-                  width={280} 
+                  height={320}
+                  width={320} 
                   alt="morpheous-logo"
                 />
               </Link>

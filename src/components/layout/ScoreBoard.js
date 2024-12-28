@@ -124,6 +124,114 @@ const ScoreBoard = () => {
                   </tbody>
                 </table>
               )}
+              {HeaderShow === 2 && (
+                <table className="table-auto min-w-full border-collapse border border-[#ffffff17] text-sm shadow-xl">
+                  <thead>
+                    <tr className="bg-[#0B122E] text-white">
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Team
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Prize
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Game
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Tournament
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Event Date
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Array.from({ length: 10 }).map((_, index) => (
+                      <tr
+                        key={index}
+                        className="bg-transparent hover:bg-[#192246] transition-all duration-500"
+                      >
+                        <td className="px-4 py-4 border-b border-[#ffffff17] flex items-center space-x-3 text-sm sm:text-lg font-medium">
+                          <Image
+                            src={`/user.png`}
+                            width={32}
+                            height={32}
+                            alt="User"
+                            className="w-8 h-8 rounded-full"
+                          />
+                          <span>MRIDUL SAKLANI</span>
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#F0AD4E]">
+                          4000Rs
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium">
+                          FREE FIRE
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium">
+                          BattleGround Blitz
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#045CF0]">
+                          12-12-2024
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+              {HeaderShow === 3 && (
+                <table className="table-auto min-w-full border-collapse border border-[#ffffff17] text-sm shadow-xl">
+                  <thead>
+                    <tr className="bg-[#0B122E] text-white">
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Team
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Prize
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Game
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Tournament
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Event Date
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Array.from({ length: 10 }).map((_, index) => (
+                      <tr
+                        key={index}
+                        className="bg-transparent hover:bg-[#192246] transition-all duration-500"
+                      >
+                        <td className="px-4 py-4 border-b border-[#ffffff17] flex items-center space-x-3 text-sm sm:text-lg font-medium">
+                          <Image
+                            src={`/user.png`}
+                            width={32}
+                            height={32}
+                            alt="User"
+                            className="w-8 h-8 rounded-full"
+                          />
+                          <span>MRIDUL SAKLANI</span>
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#F0AD4E]">
+                          4000Rs
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium">
+                          COC
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium">
+                          BattleGround Blitz
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#045CF0]">
+                          12-12-2024
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
             </div>
           </div>
         </div>
