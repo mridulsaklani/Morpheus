@@ -41,7 +41,7 @@ and take their gaming journey to new heights.
             </div>
             <div className='mission-box flex flex-col items-center justify-center gap-5 tracking-wider hover:translate-y-[-16px] transition-all duration-500'> 
                 <span className='purple-icon h-16 w-16 rounded-full text-white flex items-center justify-center '><IoGameController className='text-3xl'/></span>
-                <h3 className='text-white text-2xl font-bold uppercase pt-6'>India's Finest</h3>
+                <h3 className='text-white text-2xl font-bold uppercase pt-6'>India’s Finest</h3>
                 <p className='text-xl font-light text-center'>
                 Build India’s finest and most supportive esports community.
                 </p>
