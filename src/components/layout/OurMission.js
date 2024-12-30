@@ -23,27 +23,27 @@ and take their gaming journey to new heights.
         <div className="grid grid-cols-3 gap-6 items-center">
             <div className='mission-box flex flex-col items-center justify-center gap-5 tracking-wider hover:translate-y-[-16px] transition-all duration-500'> 
                 <span className='pink-icon h-16 w-16 rounded-full text-white flex items-center justify-center '><IoGameController className='text-3xl'/></span>
-                <h3 className='text-white text-2xl font-bold uppercase pt-6'>Gaming</h3>
+                <h3 className='text-white text-2xl font-bold uppercase pt-6'>Unite Player</h3>
                 <p className='text-xl font-light text-center'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis?
+                Unite players as a family and foster talent through exciting tournaments.  
                 </p>
                 
 
             </div>
             <div className=' mission-box flex flex-col items-center justify-center gap-5 tracking-wider hover:translate-y-[-16px] transition-all duration-500'> 
                 <span className='yellow-icon h-16 w-16 rounded-full text-white flex items-center justify-center '><IoGameController className='text-3xl'/></span>
-                <h3 className='text-white text-2xl font-bold uppercase pt-6'>Gaming</h3>
+                <h3 className='text-white text-2xl font-bold uppercase pt-6'>Fair Platform</h3>
                 <p className='text-xl font-light text-center'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis?
+                Provide a fair platform with opportunities to excel on bigger stages. 
                 </p>
                 
 
             </div>
             <div className='mission-box flex flex-col items-center justify-center gap-5 tracking-wider hover:translate-y-[-16px] transition-all duration-500'> 
                 <span className='purple-icon h-16 w-16 rounded-full text-white flex items-center justify-center '><IoGameController className='text-3xl'/></span>
-                <h3 className='text-white text-2xl font-bold uppercase pt-6'>Gaming</h3>
+                <h3 className='text-white text-2xl font-bold uppercase pt-6'>India's Finest</h3>
                 <p className='text-xl font-light text-center'>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis?
+                Build India’s finest and most supportive esports community.
                 </p>
                 
 

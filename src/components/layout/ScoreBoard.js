@@ -78,9 +78,6 @@ const ScoreBoard = () => {
                         Team
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
-                        Prize
-                      </th>
-                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
                         Game
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
@@ -88,6 +85,9 @@ const ScoreBoard = () => {
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
                         Event Date
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Prize
                       </th>
                     </tr>
                   </thead>
@@ -107,9 +107,6 @@ const ScoreBoard = () => {
                           />
                           <span>MRIDUL SAKLANI</span>
                         </td>
-                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#F0AD4E]">
-                          4000Rs
-                        </td>
                         <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium">
                           BGMI
                         </td>
@@ -118,6 +115,9 @@ const ScoreBoard = () => {
                         </td>
                         <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#045CF0]">
                           12-12-2024
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#F0AD4E]">
+                          4000Rs
                         </td>
                       </tr>
                     ))}
@@ -132,9 +132,6 @@ const ScoreBoard = () => {
                         Team
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
-                        Prize
-                      </th>
-                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
                         Game
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
@@ -142,6 +139,9 @@ const ScoreBoard = () => {
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
                         Event Date
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Prize
                       </th>
                     </tr>
                   </thead>
@@ -161,17 +161,17 @@ const ScoreBoard = () => {
                           />
                           <span>MRIDUL SAKLANI</span>
                         </td>
-                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#F0AD4E]">
-                          4000Rs
-                        </td>
-                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium">
-                          FREE FIRE
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium uppercase">
+                          Free Fire
                         </td>
                         <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium">
                           BattleGround Blitz
                         </td>
                         <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#045CF0]">
                           12-12-2024
+                        </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#F0AD4E]">
+                          4000Rs
                         </td>
                       </tr>
                     ))}
@@ -186,9 +186,6 @@ const ScoreBoard = () => {
                         Team
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
-                        Prize
-                      </th>
-                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
                         Game
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
@@ -196,6 +193,9 @@ const ScoreBoard = () => {
                       </th>
                       <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
                         Event Date
+                      </th>
+                      <th className="px-4 py-4 border-b border-[#ffffff17] text-left text-sm sm:text-lg font-medium uppercase">
+                        Prize
                       </th>
                     </tr>
                   </thead>
@@ -215,9 +215,6 @@ const ScoreBoard = () => {
                           />
                           <span>MRIDUL SAKLANI</span>
                         </td>
-                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#F0AD4E]">
-                          4000Rs
-                        </td>
                         <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium">
                           COC
                         </td>
@@ -227,11 +224,15 @@ const ScoreBoard = () => {
                         <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#045CF0]">
                           12-12-2024
                         </td>
+                        <td className="px-4 py-4 border-b border-[#ffffff17] text-sm sm:text-lg font-medium text-[#F0AD4E]">
+                          4000Rs
+                        </td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               )}
+              
             </div>
           </div>
         </div>

@@ -481,14 +481,19 @@ animation: updown 5s linear 3s infinite;
 @keyframes scale {
   0%{
     transform: scale(1);
-   
   }
+  
   50%{
     transform: scale(1.16);
   
   }
   100%{
     transform: scale(1);
-   
+  }
+}
+
+@media only screen and (max-width:767px){
+  .animated-cursor{
+    display: none !important;
   }
 }

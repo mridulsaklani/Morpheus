@@ -43,13 +43,16 @@ export default function RootLayout({ children }) {
         <Navbar/>
         {/* <WelcomePopup/> */}
         <AnimatedCursor
-          innerSize={8}
-          outerSize={20}
-          color="37, 99, 235" 
-          outerAlpha={0.4}
-          innerScale={1.2}
-          outerScale={2} 
-        />
+  className="animated-cursor"
+  innerSize={8} 
+  outerSize={15} 
+  color="37, 99, 235" 
+  outerAlpha={0.3}
+  innerScale={1} 
+  outerScale={1.5} 
+  trailingSpeed={6} 
+/>
+
 
         {children}
         <Footer/>
