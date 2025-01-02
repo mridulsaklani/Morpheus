@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import AnimatedCursor from "react-animated-cursor"
 import WelcomePopup from "@/features/WelcomePopup";
+import Aoss from "@/components/Aos";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -42,6 +43,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         {/* <WelcomePopup/> */}
+        <Aoss/>
         <AnimatedCursor
   className="animated-cursor"
   innerSize={8} 

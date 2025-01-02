@@ -44,7 +44,7 @@ export default function CenteredSlider() {
               <div
                 className={`w-full h-60 flex justify-center items-center transition-all duration-500 ${
                   activeIndex === index ? 'scale-110 z-10' : 'scale-90'
-                }`}
+                }`} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
               >
                 <img
                   src={src}

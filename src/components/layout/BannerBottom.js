@@ -29,13 +29,13 @@ useEffect(()=>{
      
       <div className='max-w-7xl m-auto pt-16 pb-12 lg:py-24 flex items-center flex-col gap-4 justify-center'>
       
-          <h4 className="text-xl lg:text-2xl text-rose-600 font-semibold uppercase ">
+          <h4 className="text-xl lg:text-2xl text-rose-600 font-semibold uppercase " data-aos="fade-up" data-aos-duration="1000" >
           Join the Live Tournament!
           </h4>
-          <h2 className="text-white font-bold text-4xl sm:text-5xl lg:text-6xl uppercase text-center">
+          <h2 className="text-white font-bold text-4xl sm:text-5xl lg:text-6xl uppercase text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           Join a tournament now
           </h2>
-          <p className="text-xl lg:text-2xl text-center w-full sm:w-2/3 font-light">
+          <p className="text-xl lg:text-2xl text-center w-full sm:w-2/3 font-light" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
           Join the action! Register now to compete in live tournaments and showcase your skills!
           </p>
 
@@ -43,7 +43,7 @@ useEffect(()=>{
       <div className='max-w-7xl m-auto'>
 
       <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center pb-20'>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500' data-aos="zoom-in" data-aos-duration="1000" >
           <Image
           className='w-full  rounded-lg'
            src={"/BGMI.jpg"} 
@@ -65,7 +65,7 @@ useEffect(()=>{
           <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
         </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
           <Image
           className='w-full  rounded-lg'
            src={"/BGMI.jpg"} 
@@ -87,7 +87,7 @@ useEffect(()=>{
           <Link href={""} className=' rounded-full px-6 py-3 w-full text-center text-white font-semibold  bg-rose-600 transition-all'>JOIN NOW!</Link>
 
         </div>
-        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
+        <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
           <Image
           className='w-full  rounded-lg'
            src={"/BGMI.jpg"} 

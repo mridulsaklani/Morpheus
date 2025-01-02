@@ -12,10 +12,10 @@ const Banner = () => {
       <div className="banner-overlay absolute top-0 left-0 w-full h-full"></div>
       <div className="max-w-7xl mx-auto pt-36 pb-36 md:pt-48 md:pb-52 flex flex-col lg:flex-row items-start relative z-20 ">
         <div className="w-full flex flex-col items-center lg:items-start lg:w-[65%]">
-          <h4 className="text-xl md:text-2xl  text-white font-semibold mb-4 pl-2 pr-2 tracking-wide  relative  w-fit">
+          <h4 className="text-xl md:text-2xl  text-white font-semibold mb-4 pl-2 pr-2 tracking-wide  relative  w-fit" data-aos="fade-up" data-aos-duration="1000">
             CHALLENGE YOUR LIMITS
           </h4>
-          <h1 className="text-white text-center lg:text-start font-bold text-4xl sm:text-5xl  lg:text-[64px] leading-snug mb-4 tracking-wide">
+          <h1 className="text-white text-center lg:text-start font-bold text-4xl sm:text-5xl  lg:text-[64px] leading-snug mb-4 tracking-wide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <span className="text-4xl sm:text-5xl lg:text-[68px] bg-gradient-to-r from-cyan-500 to-red-500 pl-2 pr-2 "> MORPHEOUS <br/> </span> THE ARENA AWAITS <br /> 
             <ReactTyped
             className="uppercase"
@@ -25,13 +25,13 @@ const Banner = () => {
               loop
             />
           </h1>
-          <p className="text-[20px] pb-8 text-white text-center lg:text-start tracking-wide">
+          <p className="text-[20px] pb-8 text-white text-center lg:text-start tracking-wide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
             Join e-sports tournament, showcase skills, win prizes, and
             rise!{" "}
           </p>
           <Link
             href={"/"}
-            className="bg-rose-600 text-white text-lg px-8 py-3 rounded-full flex items-center gap-2 w-fit hover:bg-white hover:text-rose-600 transition-all duration-500 hover:translate-y-[-8px]"
+            className="bg-rose-600 text-white text-lg px-8 py-3 rounded-full flex items-center gap-2 w-fit hover:bg-white hover:text-rose-600 transition-all duration-500 hover:translate-y-[-8px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
           >
             GET STARTED NOW! <IoGameController />
           </Link>
