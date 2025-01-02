@@ -30,10 +30,10 @@ export default function CenteredSlider() {
           spaceBetween={30}
           centeredSlides={true}
           loop={true}
-          autoplay={{
-            delay: 3000, 
-            disableOnInteraction: false, 
-          }}
+          // autoplay={{
+          //   delay: 3000, 
+          //   disableOnInteraction: false, 
+          // }}
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
           onSwiper={(swiper) => setSwiperInstance(swiper)} 
           modules={[EffectCoverflow, Pagination, Autoplay]}
@@ -49,7 +49,7 @@ export default function CenteredSlider() {
                 <img
                   src={src}
                   alt={`Slide ${index + 1}`}
-                  className="rounded-xl shadow-xl object-cover w-full h-full"
+                  className="rounded-xl shadow-xl object-cover w-full h-[90%]"
                 />
               </div>
             </SwiperSlide>

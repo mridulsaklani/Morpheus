@@ -2,9 +2,6 @@
 import React,{useState, useEffect} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaArrowRightLong } from "react-icons/fa6";
-import { GiTargetPrize } from "react-icons/gi";
-import { BiSupport } from "react-icons/bi";
 
 const BannerBottom = () => {
 
@@ -14,16 +11,16 @@ const BannerBottom = () => {
   const [second, setSecond] = useState(0)
    const deadline = "December, 31, 2024"
   const getTime = ()=>{
-      const time = Date.parse(deadline) - Date.now()
-      setDay(Math.floor(time/(1000*60*60*24)))
-      setHours(Math.floor(time/(1000*60*60)%24))
-      setMinuts(Math.floor(time/1000/60)%60)
-      setSecond(Math.floor(time/1000)%60)
+      const time = Math.abs(Date.parse(deadline) - Date.now());
+      setDay(Math.floor(time/(1000*60*60*24)));
+      setHours(Math.floor(time/(1000*60*60)%24));
+      setMinuts(Math.floor(time/1000/60)%60);
+      setSecond(Math.floor(time/1000)%60);
   }
 
 useEffect(()=>{
     const interval = setInterval(() => {
-      getTime()
+      getTime();
     }, 1000);
 },[])
   return (
@@ -42,11 +39,9 @@ useEffect(()=>{
           Join the action! Register now to compete in live tournaments and showcase your skills!
           </p>
 
-
       </div>
       <div className='max-w-7xl m-auto'>
 
-      
       <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center pb-20'>
         <div className='border-[1px] border-[#273b71] p-8 rounded-xl relative flex gap-6 justify-center items-center flex-col hover:translate-y-[-12px] transition-all  hover:border-rose-600 duration-500'>
           <Image
@@ -59,9 +54,9 @@ useEffect(()=>{
           />
           <div className="flex items-center gap-5 pb-5">
            <h3  className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-white">{day <=9 ? '0'+ day : day}</span> Days</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-white">{hours<=9 ? "0" + hours : hours}</span> Hours</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-white">{minuts<= 9 ? "0" + minuts : minuts}</span> Minutes</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-white">{second <= 9 ?"0"+ second : second} </span>Seconds</h3>
+           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-white">{hours <=9 ? "0" + hours : hours}</span> Hours</h3>
+           <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-white">{minuts <=9 ? "0" + minuts : minuts}</span> Minutes</h3>
+           <h3 className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-white">{second <=9 ?"0"+ second : second} </span>Seconds</h3>
           </div>
           <div className="flex items-center justify-between w-full ">
             <p className="text-[22px] font-medium text-white ">Prize Pool </p>
@@ -83,7 +78,7 @@ useEffect(()=>{
            <h3  className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-white">{day <=9 ? '0'+ day : day}</span> Days</h3>
            <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-white">{hours<=9 ? "0" + hours : hours}</span> Hours</h3>
            <h3 className="flex flex-col justify-center items-center gap-2"><span className="text-5xl font-semibold text-white">{minuts<= 9 ? "0" + minuts : minuts}</span> Minutes</h3>
-           <h3 className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-white">{second <= 9 ?"0"+ second : second} </span>Seconds</h3>
+           <h3 className="flex flex-col justify-center items-center gap-2"> <span className="text-5xl font-semibold text-white">{second <= 9 ? "0"+ second : second} </span>Seconds</h3>
           </div>
           <div className="flex items-center justify-between w-full">
             <p className="text-[22px] font-medium text-white ">Prize Pool </p>

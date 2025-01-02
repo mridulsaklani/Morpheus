@@ -10,7 +10,7 @@ const LiveTournaments = () => {
   const [second, setSecond] = useState(0)
    const deadline = "December, 31, 2024"
   const getTime = ()=>{
-      const time = Date.parse(deadline) - Date.now()
+      const time = Math.abs(Date.parse(deadline) - Date.now())
       setDay(Math.floor(time/(1000*60*60*24)))
       setHours(Math.floor(time/(1000*60*60)%24))
       setMinuts(Math.floor(time/1000/60)%60)
